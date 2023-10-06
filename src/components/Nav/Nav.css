@@ -1,0 +1,106 @@
+nav{
+    background: var(--color-surface-100);
+}
+.nav-info{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0;
+}
+.logo p{
+    color: var(--color-primary-100);
+    font-size: 1.7rem;
+    font-weight:600;
+    font-family: "JetBrains Mono", sans-serif;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.links li a{
+    color: var(--color-primary-100);
+    font-size: 1.1rem;
+}
+.hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    display:none;
+  }
+  
+  .line {
+    width: 30px;
+    height: 3px;
+    background-color: var(--color-primary-100);
+    margin: 3px 0;
+    transition: var(--transition-1);
+    border-radius: 3px;
+  }
+.hamburger-menu .line:nth-child(1) {
+    transform: translateY(0px) rotate(0deg);
+  }
+  
+  .hamburger-menu .line:nth-child(2) {
+    opacity: 1;
+  }
+  
+  .hamburger-menu .line:nth-child(3) {
+    transform: translateY(0px) rotate(0deg);
+  }
+  .open .line:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  
+  .open .line:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .open .line:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  @media screen and (max-width:700px){
+    .hamburger-menu {
+        display: flex;
+      }
+      .links{
+        display:flex;
+        position:absolute;
+        top:60px;
+        right:9%;
+        flex-direction: column;
+        border-radius:10px;
+        height:0;
+        width:0;
+        overflow: hidden;
+        background:var(--color-primary-100);
+        transition: var(--transition-1);
+      }
+      .nav-info .links a{
+        color: var(--color-surface-100);
+        display: none;
+        transition: var(--transition-1);
+
+      }
+      .nav-info .open-links a{
+        display: block;
+        padding: 10px 50px;
+        width:100%;
+        transition: var(--transition-1);
+      }
+      .nav-info .open-links{
+        display:flex;
+        position:absolute;
+        top:60px;
+        right:7.6%;
+        flex-direction: column;
+        height:300px;
+        border-radius:10px;
+        padding:10px 0px;
+        width: 200px;
+      } 
+  }
