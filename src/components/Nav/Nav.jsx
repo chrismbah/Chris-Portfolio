@@ -1,4 +1,5 @@
 import { useState } from "react";
+import  {Link}  from "react-router-dom";
 import  "./Nav.css"
 
 export default function Nav() {
@@ -16,16 +17,16 @@ export default function Nav() {
                 </div>
                 <ul className={`links ${isOpen? 'open-links' : ''}`}>
                     <li className='about'>
-                        <a href="">About</a>
+                       <Link to="">About</Link>
                     </li>
                     <li className='skills'>
-                        <a href="">Skills</a>
+                        <Link to="">Skills</Link>
                     </li>
                     <li className='projects'>
-                        <a href="">Projects</a>
+                        <Link to="">Projects</Link>
                     </li>
                     <li className='contact'>
-                        <a href="">Contact</a>
+                        <Link to="">Contact</Link>
                     </li>
                 </ul>
                 <div className={`hamburger-menu ${isOpen ? 'open' : ''}`}
