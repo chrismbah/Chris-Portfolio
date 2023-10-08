@@ -63,7 +63,7 @@ nav{
   .open .line:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
-  @media screen and (max-width:700px){
+  @media screen and (max-width:900px){
     .hamburger-menu {
         display: flex;
       }
@@ -77,7 +77,7 @@ nav{
         height:0;
         width:0;
         overflow: hidden;
-        background:var(--color-primary-100);
+        background:var(--color-primary-100-a);
         transition: var(--transition-1);
       }
       .nav-info .links a{
@@ -91,6 +91,7 @@ nav{
         padding: 10px 50px;
         width:100%;
         transition: var(--transition-1);
+        color: white;
       }
       .nav-info .open-links{
         display:flex;

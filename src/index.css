@@ -3,6 +3,7 @@
 :root{
   /********* Main Theme *************/
   --color-primary-100: #5757ff;
+  --color-primary-100-a: #5757ffc4;
   --color-primary-200: #7268ff;
   --color-primary-300: #897aff;
   --color-primary-400: #9c8cff;
@@ -16,7 +17,6 @@
   --color-surface-600:  #8b8b8b;
 
   --transition-1: .4s;
-
 }
 
 *{
