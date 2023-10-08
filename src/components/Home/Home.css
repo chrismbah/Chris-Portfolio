@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* padding: 10vh 0 15vh; */
+    padding: 20px 0 30px;
     max-width:1300px;
     min-height: 100vh;
 }
@@ -123,7 +123,20 @@
 @media screen and (max-width:900px){
     .home{
        flex-direction: column-reverse;
+       justify-content:space-evenly;
+
     }
+     /* .home{
+        color:white;
+        width: 85%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10vh 0 15vh;
+        max-width:1300px;
+        min-height: 100vh;
+    }  */
     .home-text,.home-img{
         text-align: center;
     }
