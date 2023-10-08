@@ -13,10 +13,10 @@ export default function Home() {
         <h1 className='name'>I'm Chris Mbah</h1>
         <h2>a <span> Front-End Developer</span></h2>
         <div className="info">
-         <p>High Level Experience in web design and development knowledge,<br/> producing quality work.</p>
+         <p>High level experience in Web Design and Development Knowledge,<br/> producing pixel perfect designs.</p>
          <p>I transform your concepts into reality.</p>
         </div>
-        <div className="links">
+        <div className="home-links">
           <div className="btn github"><Github/></div>
           <div className="btn linkedin"><Linkedin/></div>
           <div className="btn gmail"><Gmail/></div>
