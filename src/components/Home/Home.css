@@ -7,7 +7,7 @@
     justify-content: space-between;
     padding: 20px 0 30px;
     max-width:1300px;
-    min-height: 100vh;
+    min-height: 92vh;
 }
 .home-text h1{
     font-size: 1.8rem;
@@ -123,7 +123,7 @@
 @media screen and (max-width:900px){
     .home{
        flex-direction: column-reverse;
-       justify-content:space-evenly;
+       justify-content:center;
 
     }
      /* .home{
