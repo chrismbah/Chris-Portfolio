@@ -105,3 +105,8 @@ nav{
         width: 200px;
       } 
   }
+@media screen and (max-width:450px){
+  .nav-info{
+    width: 90%;
+} 
+}

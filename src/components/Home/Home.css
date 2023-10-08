@@ -115,8 +115,7 @@
         padding: 10px;
     }
     .home-links .btn{
-        width:35px;
-        height:35px;
+
         padding: 7px;
     }
     .home-links .btn i {
@@ -140,4 +139,32 @@
     .home-img img{
         width: 350px;
      }
+}
+@media screen and (max-width:450px){
+    .home{
+        width: 90%;
+    }
+    .home-img img{
+        width: 300px;
+     }
+     .home-text h1{
+        font-size: 1.3rem;
+    }
+    .home-text .name{
+        font-size: 2.4rem;
+    }
+    .home-text h2{
+        font-size: 1.3rem;
+        margin-bottom: 3px;
+    }
+    .home-text .info{
+        margin-bottom: 8px;
+    }
+    .home-text .info{
+        margin-bottom: 10px;
+        font-size: .9rem;
+    }
+    .resume-btn{
+        padding: 8px;
+    }
 }
