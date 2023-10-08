@@ -9,6 +9,25 @@
     max-width:1300px;
     min-height: 92vh;
 }
+.home .nav-up{
+    position: absolute;
+    bottom: 8%;
+    right: 4%;
+    cursor: pointer;
+}
+/* .home .nav-up{
+    position: absolute;
+    bottom: 8%;
+    right: 8%;
+} */
+.home .nav-up i{
+    color: white;
+    display: block;
+    font-size: 1.1rem;
+    padding: 10px;
+    background: var(--color-primary-100);
+    border-radius: 50%;
+}
 .home-text h1{
     font-size: 1.8rem;
 }

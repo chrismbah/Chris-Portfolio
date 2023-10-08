@@ -5,13 +5,14 @@ import Illustration from "../../assets/Illustration2.svg"
 import Linkedin from '../Icons/Linkedin'
 import Gmail from "../Icons/Gmail"
 import Github from "../Icons/Github"
+import NavUp from "../Icons/NavUp"
 export default function Home() {
   return (
     <section className='home'>
       <div className='home-text'>
         <h1>Hey there 👋,</h1>
         <h1 className='name'>I'm Chris Mbah</h1>
-        <h2>a <span> Front-End Developer</span></h2>
+        <h2>a <span> Front-End Engineer</span></h2>
         <div className="info">
          <p>High level experience in Web Design and Development Knowledge,<br/> producing pixel perfect designs.</p>
          <p>I transform your concepts into reality.</p>
@@ -29,6 +30,9 @@ export default function Home() {
       </div>
       <div className='home-img'>
         <img src={Illustration}/>
+      </div>
+      <div className="nav-up">
+        <a href="#"><NavUp/></a> 
       </div>
     </section>
   )
