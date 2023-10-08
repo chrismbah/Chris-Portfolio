@@ -8,6 +8,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding: 8px 0;
+    max-width: 1300px;
 }
 .logo p{
     color: var(--color-primary-100);
