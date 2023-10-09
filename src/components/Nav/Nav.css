@@ -90,7 +90,7 @@ nav{
       }
       .nav-info .open-links a{
         display: block;
-        padding: 10px 50px;
+        padding: 10px 40px;
         width:100%;
         transition: var(--transition-1);
         color: white;
@@ -107,8 +107,19 @@ nav{
         width: 200px;
       } 
   }
-@media screen and (max-width:450px){
+/* @media screen and (max-width:450px){
   .nav-info{
     width: 90%;
-} 
-}
+  }
+  .nav-info .open-links{
+    width: 140px;
+    height:280px;
+  }
+  .nav-info .open-links a{
+    display: block;
+    padding: 10px 20px;
+    width:100%;
+    transition: var(--transition-1);
+    color: white;
+  }
+} */

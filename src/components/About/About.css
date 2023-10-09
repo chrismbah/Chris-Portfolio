@@ -35,14 +35,19 @@
         margin-bottom: 7px;
     }
     .about-text p{
-        font-size: .9rem;
+        font-size: .85rem;
     }
 }
 @media screen and (max-width:800px) {
     .about-info{
        flex-direction: column-reverse;
     }
-    .about-img{
-        /* text-align: center; */
+}
+@media screen and (max-width:450px) {    
+    .about-img img{
+        width: 100%;
     }
+    .about-text p{
+        font-size: .75rem;
+    }    
 }
