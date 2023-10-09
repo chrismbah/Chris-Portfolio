@@ -8,7 +8,8 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding: 8px 0;
-    max-width: 1300px;
+    max-width:1240px;
+
 }
 .logo p{
     color: var(--color-primary-100);
@@ -64,7 +65,7 @@ nav{
   .open .line:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
-  @media screen and (max-width:900px){
+  @media screen and (max-width:800px){
     .hamburger-menu {
         display: flex;
       }
