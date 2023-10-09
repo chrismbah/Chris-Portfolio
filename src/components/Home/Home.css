@@ -10,16 +10,11 @@
     min-height: 92vh;
 }
 .home .nav-up{
-    position: absolute;
+    position: fixed;
     bottom: 8%;
     right: 4%;
     cursor: pointer;
 }
-/* .home .nav-up{
-    position: absolute;
-    bottom: 8%;
-    right: 8%;
-} */
 .home .nav-up i{
     color: white;
     display: block;
