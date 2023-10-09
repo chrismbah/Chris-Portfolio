@@ -24,8 +24,8 @@ export default function Home() {
           <div className="btn gmail"><Gmail/></div>
         </div>
         <div className="resume">
-          <button className="resume-btn">
-            Download CV
+          <button className="contact-btn">
+            <a href="">Download CV</a>
           </button>
         </div>
       </div>
