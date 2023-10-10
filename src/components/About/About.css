@@ -16,7 +16,7 @@
 .about-text .last{
     margin-bottom: 15px;
 }
-.about-text h2{
+.header h2{
     font-size: var(--h2-font);
     color: var(--color-primary-100);
     margin-bottom: 10px;

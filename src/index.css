@@ -34,3 +34,6 @@
   background:var(--color-surface-100);
   color:white;
 }
+.header{
+  text-align: center;
+}

@@ -16,7 +16,7 @@
     display: block;
     font-size: 1.1rem;
     padding: 10px;
-    background: var(--color-primary-100);
+    background: var(--color-primary-100-a);
     border-radius: 50%;
 }
 .home-text h1{
@@ -150,9 +150,6 @@
     }
 }
 @media screen and (max-width:450px){
-    .home{
-        width: 90%;
-    }
      .home-text h1{
         font-size: 1.3rem;
     }
