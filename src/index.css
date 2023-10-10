@@ -17,6 +17,8 @@
   --color-surface-600:  #8b8b8b;
 
   --transition-1: .4s;
+
+  --h2-font: 2.2rem;
 }
 
 *{
@@ -27,4 +29,8 @@
   scroll-behavior: smooth;
   text-decoration:none;
   list-style:none;
+}
+.App{
+  background:var(--color-surface-100);
+  color:white;
 }

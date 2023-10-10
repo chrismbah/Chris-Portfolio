@@ -9,7 +9,7 @@ export default function Nav() {
     };
   return (
     <>
-        <nav>
+        <section className="nav">
             <div className="nav-info">
                 <div className="logo">
                     <p>chris.</p>
@@ -36,7 +36,7 @@ export default function Nav() {
                 </div>
             </div>
 
-        </nav>
+        </section>
     </>
   )
 }

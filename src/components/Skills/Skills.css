@@ -1,0 +1,31 @@
+.skills-info{
+    padding: 20px 0 30px;
+}
+.skills-info h2{
+    font-size: var(--h2-font);
+    color: var(--color-primary-100);
+    margin-bottom: 10px;
+}
+.skills-info img{
+    width: 60px;
+    height: auto;
+    margin-right: 10px;
+    object-fit: cover;
+}
+.skills-info .icons{
+    display: flex;
+    flex-wrap:wrap ;
+    gap: 1rem;
+}
+.skills-info .icons .icon{
+    text-align: center;
+}
+.skills-info p{
+    font-family: "JetBrains Mono", sans-serif;
+}
+.skills-info .lang{
+    margin-bottom: 5px;
+}
+.skills-info h3{
+    margin-bottom: 5px;
+}

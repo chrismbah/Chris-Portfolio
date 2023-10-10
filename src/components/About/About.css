@@ -1,14 +1,11 @@
 .about-info{
-    width: 85%;
-    margin: 0 auto;
     display: flex;
     gap: 3rem;
     padding: 10px 0 30px;
-    max-width:1240px;
 }
 
 .about-img img{
-    width: 350px;
+    width: 340px;
 }
 .about-text .info{
     width: 80%;
@@ -20,7 +17,7 @@
     margin-bottom: 15px;
 }
 .about-text h2{
-    font-size: 2.2rem;
+    font-size: var(--h2-font);
     color: var(--color-primary-100);
     margin-bottom: 10px;
 }
@@ -35,7 +32,7 @@
         margin-bottom: 7px;
     }
     .about-text p{
-        font-size: .85rem;
+        font-size: .9rem;
     }
 }
 @media screen and (max-width:800px) {
@@ -47,7 +44,4 @@
     .about-img img{
         width: 100%;
     }
-    .about-text p{
-        font-size: .75rem;
-    }    
 }
