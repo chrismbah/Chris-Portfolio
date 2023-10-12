@@ -10,7 +10,7 @@
 .skills-info img{
     width: 100%;
     height: auto;
-    margin-right: 10px;
+    margin-right: 15px;
     object-fit: fill;
 }
 .skills-info .icons{
@@ -51,7 +51,7 @@
 @media screen and (max-width:600px) {
     .skills-info .icon{
         width: 45px;
-        margin-right: 5px;
+        margin-right: 10px;
     }
     .skills-info p{
         font-size: .6em;

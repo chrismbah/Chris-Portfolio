@@ -16,7 +16,7 @@
     display: block;
     font-size: 1.1rem;
     padding: 10px;
-    background: var(--color-primary-100-a);
+    background: var(--color-primary-100);
     border-radius: 50%;
 }
 .home-text h1{
@@ -125,9 +125,6 @@
     .home-text .home-links{
         margin-bottom: 5px;
     }
-    .contact-btn{
-        padding: 10px;
-    }
     .home-links .btn{
         padding: 7px;
     }
@@ -168,7 +165,7 @@
         font-size: .9rem;
     }
     .contact-btn{
-        padding: 8px;
+        padding: 10px;
     }
     .home-img img{
         width: 80%;

@@ -15,18 +15,18 @@ export default function Nav() {
             <p>chris.</p>
           </div>
           <ul className={`links ${isOpen ? "open-links" : ""}`}>
-            <li className="about">
+            {/* <li className="about"> */}
               <a href="#about">About</a>
-            </li>
-            <li className="skills">
+            {/* </li> */}
+            {/* <li className="skills"> */}
               <a href="#skills">Skills</a>
-            </li>
-            <li className="projects">
+            {/* </li> */}
+            {/* <li className="projects"> */}
               <a href="#projects">Projects</a>
-            </li>
-            <li className="contact">
+            {/* </li> */}
+            {/* <li className="contact"> */}
               <a href="#contact">Contact</a>
-            </li>
+            {/* </li> */}
           </ul>
           <div
             className={`hamburger-menu ${isOpen ? "open" : ""}`}
