@@ -2,7 +2,8 @@
 
 :root{
   /********* Main Theme *************/
-  --color-primary-100: #5757ff;
+  --color-primary-100: #7e22ce;
+  --color-primary-100-1: #5757ff;
   --color-primary-100-a: #5757ffc4;
   --color-primary-200: #7268ff;
   --color-primary-300: #897aff;
@@ -25,7 +26,7 @@
   box-sizing:border-box;
   margin:0;
   padding:0;
-  font-family: "Inter", sans-serif;
+  font-family: "Rubik", sans-serif;
   scroll-behavior: smooth;
   text-decoration:none;
   list-style:none;
