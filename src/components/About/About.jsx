@@ -23,8 +23,6 @@ export default function About() {
               wide array of cutting-edge frameworks and technologies.
             </p>
             <p>
-              {/* I'm dedicated to bringing digital visions to life through the power of design, development, and
-          problem-solving. */}
               When I'm not coding or designing, you can often find me playing
               chess, watching anime, reading manga or simply enjoying a good cup
               of coffee.
@@ -35,7 +33,7 @@ export default function About() {
           </div>
           <div className="about-contact">
             <button className="contact-btn">
-              <a href="">Get In Touch</a>
+              <a href="">Contact Me</a>
             </button>
           </div>
         </div>
