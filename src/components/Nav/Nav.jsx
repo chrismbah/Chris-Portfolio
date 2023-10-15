@@ -1,33 +1,36 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./Nav.css";
 
 export default function Nav() {
   const [isOpen, setIsOpen] = useState(false);
+  const [ isScrolled, setIsScrolled] = useState(false);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
+  useEffect(()=>{
+    function scrollNav(){
+      setIsScrolled(window.scrollY > 10)
+    }
+    window.addEventListener("scroll", scrollNav)
+    return ()=>{
+      window.removeEventListener("scroll", scrollNav)
+    }
+  },[])
   return (
     <>
-      <section className="nav">
+      <section className={`nav ${isScrolled? "nav-scroll": ""}`}>
         <div className="nav-info">
           <div className="logo">
             <p>chris.</p>
           </div>
-          <ul className={`links ${isOpen ? "open-links" : ""}`}>
-            {/* <li className="about"> */}
+          <div className={`links ${isOpen ? "open-links" : ""}`}>
               <a href="#about">About</a>
-            {/* </li> */}
-            {/* <li className="skills"> */}
               <a href="#skills">Skills</a>
-            {/* </li> */}
-            {/* <li className="projects"> */}
               <a href="#projects">Projects</a>
-            {/* </li> */}
-            {/* <li className="contact"> */}
               <a href="#contact">Contact</a>
-            {/* </li> */}
-          </ul>
+          </div>
           <div
             className={`hamburger-menu ${isOpen ? "open" : ""}`}
             onClick={toggleMenu}
