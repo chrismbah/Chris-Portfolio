@@ -1,4 +1,4 @@
-import React,{useEffect,useRef} from 'react'
+import React,{useEffect,useRef, useState} from 'react'
 // import { TypeAnimation } from 'react-type-animation';
 import "./Home.css"
 import Illustration from "../../assets/Illustration2.svg"
@@ -7,6 +7,19 @@ import Gmail from "../Icons/Gmail"
 import Github from "../Icons/Github"
 import NavUp from "../Icons/NavUp"
 export default function Home() {
+  const [ isVisible, setIsVisible] = useState(false)
+
+  useEffect(()=>{
+    function handleScroll(){
+      setIsVisible(window.scrollY > 10)
+    }
+
+    window.addEventListener("scroll", handleScroll)
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [])
+
   return (
     <section className='home'>
       <div className='home-text'>
@@ -32,7 +45,7 @@ export default function Home() {
       <div className='home-img'>
         <img src={Illustration}/>
       </div>
-      <div className="nav-up">
+      <div className={`nav-up ${isVisible?"nav-visible": ""}`}>
         <a href="#"><NavUp/></a> 
       </div>
     </section>
