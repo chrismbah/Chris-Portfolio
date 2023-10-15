@@ -34,7 +34,7 @@
     font-family: "JetBrains Mono", sans-serif;
     font-size: .8em;
     text-align: center;
-    color: var(--color-primary-100);
+    /* color: var(--color-primary-100); */
 }
 .skills-info .lang{
     margin-bottom: 40px;
