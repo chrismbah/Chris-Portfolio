@@ -10,11 +10,11 @@
     bottom: 8%;
     right: 4%;
     cursor: pointer;
-    opacity: 0;
+    display: none;
     transition: var(--transition-1)
 }
 .home .nav-visible{
-    opacity: 1;
+    display: block;
 }
 .home .nav-up i{
     color: white;
