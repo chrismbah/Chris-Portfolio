@@ -4,7 +4,7 @@ import "./About.css";
 
 export default function About() {
   return (
-    <>
+    <main id="about">
       <div className="header">
         <h2>
           About <span>Me</span>
@@ -38,6 +38,6 @@ export default function About() {
           </div>
         </div>
       </section>
-    </>
+    </main>
   );
 }

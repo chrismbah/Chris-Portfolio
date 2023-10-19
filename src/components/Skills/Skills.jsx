@@ -13,7 +13,8 @@ import vite from "../../assets/skills/vite.svg";
 
 export default function Skills() {
   return (
-    <section className="skills-info">
+    <main id="skills">
+      <section className="skills-info" id="skills">
       <h2>My Skills</h2>
       <div className="lang">
         <h3>Languages</h3>
@@ -66,5 +67,7 @@ export default function Skills() {
         </div>
       </div>
     </section>
+    </main>
+
   );
 }

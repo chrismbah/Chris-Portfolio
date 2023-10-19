@@ -3,11 +3,12 @@
 :root{
   /********* Main Theme *************/
   --color-primary-100: #7e22ce;
-  --color-primary-100-1: #5757ff;
+  --color-primary-100-a: #7e22ce63;
+  /* --color-primary-100-1: #5757ff;
   --color-primary-100-a: #5757ffc4;
   --color-primary-200: #7268ff;
   --color-primary-300: #897aff;
-  --color-primary-400: #9c8cff;
+  --color-primary-400: #9c8cff; */
 
   /** CSS DARK THEME SURFACE COLORS */ 
   --color-surface-200:  #121212;
@@ -16,8 +17,10 @@
   --color-surface-400:  #575757;
   --color-surface-500:  #717171;
   --color-surface-600:  #8b8b8b;
+  --color-surface-700:  #f8f8f8;
 
   --transition-1: .4s;
+  --transition-2: padding .4s;
 
   --h2-font: 2.2rem;
 }
@@ -32,9 +35,21 @@
   list-style:none;
 }
 .App{
-  background:var(--color-surface-100);
-  color:white;
+  background:var(--color-surface-700);
 }
 .header{
   text-align: center;
 }
+section{
+    width: 85%;
+    margin: 0 auto;
+    max-width: 1240px;
+ }
+ main{
+  padding-top: 100px;
+}
+ @media screen and (max-width: 450px){
+    section{
+        width: 90%;
+     }  
+ }

@@ -27,8 +27,8 @@ export default function Home() {
         <h1 className='name'>I'm Chris Mbah</h1>
         <h2>a <span> Software Developer</span></h2>
         <div className="info">
-         <p>High level experience in Web   Design and Development Knowledge,<br/>
-          producing pixel perfect designs.</p> 
+         {/* <p>High level experience in Web   Design and Development Knowledge,<br/>
+          producing pixel perfect designs.</p>  */}
          <p>I transform your concepts into reality.</p>
         </div>
         <div className="home-links">

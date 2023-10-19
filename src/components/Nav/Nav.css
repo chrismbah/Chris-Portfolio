@@ -4,20 +4,24 @@
   left: 0;
   width: 100%; 
   z-index: 1000;
+  transition: var(--transition-2);
 }
 .nav-scroll{
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
-  /* background: var(--color-surface-100); */
-  backdrop-filter: blur(30px);
+  backdrop-filter: blur(125px);
 }
 
 .nav-info {
   max-width: 1240px;
   margin: 0 auto;
-  padding: 18px 7.5%;
+  padding: 12px 7.5%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.nav-info-scrolled{
+  padding: 5px 7.5%;
+
 }
 .logo p{
     color: var(--color-primary-100);

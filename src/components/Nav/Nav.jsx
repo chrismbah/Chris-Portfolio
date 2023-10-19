@@ -20,8 +20,8 @@ export default function Nav() {
   },[])
   return (
     <>
-      <section className={`nav ${isScrolled? "nav-scroll": ""}`}>
-        <div className="nav-info">
+      <div className={`nav ${isScrolled? "nav-scroll": ""}`}>
+        <div className={`nav-info ${isScrolled? "nav-info-scrolled" : ""}`}>
           <div className="logo">
             <p>chris.</p>
           </div>
@@ -40,7 +40,7 @@ export default function Nav() {
             <div className="line"></div>
           </div>
         </div>
-      </section>
+      </div>
     </>
   );
 }
