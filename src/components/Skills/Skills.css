@@ -21,7 +21,7 @@
     gap: 2rem;
 }
 .skills-info .icon{
-    width: 65px;
+    width: 60px;
 }
 .skills-info .tools,.lang{
     text-align: center;
@@ -31,10 +31,8 @@
 }
 
 .skills-info p{
-    font-family: "JetBrains Mono", sans-serif;
     font-size: .8em;
     text-align: center;
-    /* color: var(--color-primary-100); */
 }
 .skills-info .lang{
     margin-bottom: 40px;

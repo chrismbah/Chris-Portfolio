@@ -8,17 +8,14 @@
 }
 .nav-scroll{
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
-  backdrop-filter: blur(125px);
+  backdrop-filter: blur(75px);
+  /* padding: 5px 7.5%; */
 }
 
 .nav-info {
   max-width: 1240px;
   margin: 0 auto;
-<<<<<<< HEAD
-  padding: 12px 7.5%;
-=======
-  padding: 7px 7.5%;
->>>>>>> 82117a3cad52a8230d3ccd8da5d535e00a2d3bb3
+  padding: 8px 7.5%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -31,7 +28,6 @@
     color: var(--color-primary-100);
     font-size: 1.7rem;
     font-weight:600;
-    font-family: "JetBrains Mono", sans-serif;
 }
 .links{
     display: flex;

@@ -3,13 +3,14 @@ import "./Skills.css";
 import html from "../../assets/skills/html.svg";
 import css from "../../assets/skills/css.svg";
 import js from "../../assets/skills/js.svg";
-import ts from "../../assets/skills/typescript.svg";
+import ts from "../../assets/skills/ts-icon.svg";
 import react from "../../assets/skills/react.svg";
 import tailwind from "../../assets/skills/tailwind.svg";
 import git from "../../assets/skills/git.svg";
 import github from "../../assets/skills/github.svg";
 import vercel from "../../assets/skills/vercel.svg";
 import vite from "../../assets/skills/vite.svg";
+import python from "../../assets/skills/python.svg"
 
 export default function Skills() {
   return (
@@ -38,6 +39,10 @@ export default function Skills() {
           <div className="icon react">
             <img src={react} alt="react" />
             <p>React</p>
+          </div>
+          <div className="icon python">
+            <img src={python} alt="python" />
+            <p>Python</p>
           </div>
           <div className="icon tailwind">
             <img src={tailwind} alt="tailwind" />
