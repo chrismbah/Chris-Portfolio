@@ -1,14 +1,19 @@
 import React from "react";
 import { projectInfo } from "./ProjectInfo";
 import ProjectCard from "./ProjectCard";
+import "./Projects.css";
 
 export default function Projects() {
   return (
     <main id="projects">
+      <div className="header">
+        <h2>My Projects</h2>
+        <p>Stuffs I've cooked so far</p>
+      </div>
       <section className="projects-info">
-        <div className="projects-card">
-          {projectInfo.map((i) => {
-            const { name, tools, details } = projectInfo;
+        <div className="project-cards">
+          {projectInfo.map((info, i) => {
+            const { name, tools, details } = info;
             return (
               <ProjectCard key={i} name={name} tools={tools} det={details} />
             );

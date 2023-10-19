@@ -1,0 +1,14 @@
+.project-cards{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+    gap:3rem;
+}
+.project-card{
+    background: red;
+    padding:15px;
+    height:300px;
+}
+.project-tools{
+    display:flex;
+    flex-wrap:wrap;
+}
