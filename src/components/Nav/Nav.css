@@ -14,7 +14,11 @@
 .nav-info {
   max-width: 1240px;
   margin: 0 auto;
+<<<<<<< HEAD
   padding: 12px 7.5%;
+=======
+  padding: 7px 7.5%;
+>>>>>>> 82117a3cad52a8230d3ccd8da5d535e00a2d3bb3
   display: flex;
   justify-content: space-between;
   align-items: center;
