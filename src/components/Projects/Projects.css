@@ -4,11 +4,33 @@
     gap:3rem;
 }
 .project-card{
-    background: red;
+    position: relative;
     padding:15px;
     height:300px;
+    border-radius: 15px;
+    box-shadow: var(--box-shadow-1);
 }
 .project-tools{
     display:flex;
     flex-wrap:wrap;
+    gap: 5px;
+}
+.tool-card{
+    padding: 5px;
+    border-radius: 5px;
+    background: var(--color-primary-100-a);
+    font-size: .8rem;
+}
+.project-icons{
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+@media screen and (max-width: 450px) {
+    .project-cards{
+        grid-template-columns: repeat(auto-fit, minmax(180px, auto));
+    }
 }

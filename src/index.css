@@ -22,7 +22,10 @@
   --transition-1: .4s;
   --transition-2: padding .4s;
 
-  --h2-font: 2.2rem;
+  --h2-font: 1.8rem;
+  --h2-font-small: 1.7rem;
+
+  --box-shadow-1: rgba(0, 0, 0, 0.18) 0px 2px 4px;
 }
 
 *{
@@ -39,6 +42,13 @@
 }
 .header{
   text-align: center;
+  margin-bottom: 15px;
+  font-size: var(--h2-font);
+}
+
+.header p{
+  font-size:1.3rem;
+  color: var(--color-primary-100);
 }
 section{
     width: 85%;
@@ -47,6 +57,12 @@ section{
  }
  main{
   padding-top: 100px;
+}
+@media screen and (max-width:800px){
+  .header{
+    text-align: left;
+    font-size: var(--h2-font-small);
+  }  
 }
  @media screen and (max-width: 450px){
     section{

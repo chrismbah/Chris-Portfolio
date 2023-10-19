@@ -3,33 +3,33 @@ import "./Nav.css";
 
 export default function Nav() {
   const [isOpen, setIsOpen] = useState(false);
-  const [ isScrolled, setIsScrolled] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
-  useEffect(()=>{
-    function scrollNav(){
-      setIsScrolled(window.scrollY > 10)
+  useEffect(() => {
+    function scrollNav() {
+      setIsScrolled(window.scrollY > 10);
     }
-    window.addEventListener("scroll", scrollNav)
-    return ()=>{
-      window.removeEventListener("scroll", scrollNav)
-    }
-  },[])
+    window.addEventListener("scroll", scrollNav);
+    return () => {
+      window.removeEventListener("scroll", scrollNav);
+    };
+  }, []);
   return (
     <>
-      <div className={`nav ${isScrolled? "nav-scroll": ""}`}>
-        <div className={`nav-info ${isScrolled? "nav-info-scrolled" : ""}`}>
+      <div className={`nav ${isScrolled ? "nav-scroll" : ""}`}>
+        <div className={`nav-info ${isScrolled ? "nav-info-scrolled" : ""}`}>
           <div className="logo">
             <p>chris.</p>
           </div>
           <div className={`links ${isOpen ? "open-links" : ""}`}>
-              <a href="#about">About</a>
-              <a href="#skills">Skills</a>
-              <a href="#projects">Projects</a>
-              <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
           </div>
           <div
             className={`hamburger-menu ${isOpen ? "open" : ""}`}

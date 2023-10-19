@@ -1,12 +1,7 @@
 .skills-info{
     padding: 20px 0 30px;
 }
-.skills-info h2{
-    font-size: var(--h2-font);
-    color: var(--color-primary-100);
-    margin-bottom: 10px;
-    text-align: center;
-}
+
 .skills-info img{
     width: 100%;
     height: auto;
@@ -26,9 +21,6 @@
 .skills-info .tools,.lang{
     text-align: center;
 }
-.skills-info .icons{
-    text-align: center;
-}
 
 .skills-info p{
     font-size: .8em;
@@ -44,6 +36,12 @@
 @media screen and (max-width:800px) {
     .skills-info .icon{
         width: 65px;
+    }
+    .skills-info h3{
+        text-align: left;
+    }
+    .skills-info .icons{
+        justify-content: start;
     }
 }
 @media screen and (max-width:600px) {

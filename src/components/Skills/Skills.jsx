@@ -11,12 +11,16 @@ import github from "../../assets/skills/github.svg";
 import vercel from "../../assets/skills/vercel.svg";
 import vite from "../../assets/skills/vite.svg";
 import python from "../../assets/skills/python.svg"
+import vscode from "../../assets/skills/vscode.svg"
+import pycharm from "../../assets/skills/pycharm.svg"
 
 export default function Skills() {
   return (
     <main id="skills">
       <section className="skills-info" id="skills">
-      <h2>My Skills</h2>
+      <div className="header">
+        <h2>My Skills</h2>
+      </div>
       <div className="lang">
         <h3>Languages</h3>
         <div className="icons">
@@ -68,6 +72,14 @@ export default function Skills() {
           <div className="icon vite">
             <img src={vite} alt="vite" />
             <p>Vite</p>
+          </div>
+          <div className="icon vscode">
+            <img src={vscode} alt="vite" />
+            <p>VS Code</p>
+          </div>
+          <div className="icon pycharm">
+            <img src={pycharm} alt="vite" />
+            <p>PyCharm</p>
           </div>
         </div>
       </div>

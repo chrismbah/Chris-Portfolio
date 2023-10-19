@@ -1,5 +1,6 @@
 import React from "react";
-
+import Github from "../Icons/Github";
+import Link from "../Icons/Link";
 export default function ProjectCard({ name, tools, det }) {
   return (
     <div className="project-card">
@@ -17,8 +18,16 @@ export default function ProjectCard({ name, tools, det }) {
         <p>{det}</p>
       </div>
       <div className="project-icons">
-        <div className="live"></div>
-        <div className="github"></div>
+        <div className="live">
+          <p>
+            <a href="">Live <Link /></a>
+          </p>
+        </div>
+        <div className="github">
+          <p>
+            <a href="">Github <Github /></a>
+          </p>
+        </div>
       </div>
     </div>
   );
