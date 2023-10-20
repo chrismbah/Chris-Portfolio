@@ -1,22 +1,22 @@
 export const projectInfo = [
     {
         name:"Coin Pulse",
-        tools: ['JavaScript','ReactJs', 'CSS'],
-        details: "A crypto tracker app"
+        tools: ['JavaScript','ReactJs', 'CSS', 'RESTFUL-API'],
+        details: "A crypto currency price tracker app that lets users stay updated on real-time crypto currency prices, and other useful information"
     },
     {
         name:"Spend Smart",
         tools: ['JavaScript','ReactJs', 'Typescript'],
-        details: "An expense tracker app"
+        details: "A user-friendy expense tracker designed to help users manage their finances effectively"
     },  
     {
         name:"Quiz Master",
-        tools: ['JavaScript','ReactJs', 'CSS'],
-        details: "A quiz app"
+        tools: ['JavaScript','ReactJs', 'CSS', 'Framer-Motion'],
+        details: "A dynamic quiz platorm that offers a diverse range of questions with cool animations"
     },  
     {
         name:"Honey Foods",
-        tools: ['JavaScript', 'CSS'],
+        tools: ['HTML','CSS', 'JavaScript'],
         details: "A honey app"
     },  
     {

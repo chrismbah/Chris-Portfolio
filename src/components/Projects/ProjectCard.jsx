@@ -9,7 +9,7 @@ export default function ProjectCard({ name, tools, det }) {
         {tools.map((tool, i) => {
           return (
             <div key={i} className="tool-card">
-              {tool}
+              {tool} 
             </div>
           );
         })}
