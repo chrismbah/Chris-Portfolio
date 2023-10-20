@@ -36,14 +36,18 @@
 
 .links a{
     color: var(--color-primary-100);
+    /* color: initial; */
     font-size: 1.1rem;
+}
+.open-links a{
+  color: black;
 }
 .hamburger-menu {
     display: flex;
     flex-direction: column;
     cursor: pointer;
     display:none;
-  }
+  } 
   
   .line {
     width: 30px;

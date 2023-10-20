@@ -19,7 +19,7 @@
   --color-surface-600:  #8b8b8b;
   --color-surface-700:  #f8f8f8;
 
-  --transition-1: .4s;
+  --transition-1: .4s ease;
   --transition-2: padding .4s;
 
   --h2-font: 1.8rem;
@@ -47,7 +47,7 @@
 }
 
 .header p{
-  font-size:1.3rem;
+  font-size:1.2rem;
   color: var(--color-primary-100);
 }
 section{
@@ -62,6 +62,9 @@ section{
   .header{
     text-align: left;
     font-size: var(--h2-font-small);
+  }
+  .header p{
+    font-size: 1.1rem;
   }  
 }
  @media screen and (max-width: 450px){

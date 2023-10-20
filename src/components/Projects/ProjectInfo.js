@@ -1,28 +1,28 @@
 export const projectInfo = [
     {
         name:"Coin Pulse",
-        tools: ['JavaScript','ReactJs', 'CSS', 'RESTFUL-API'],
-        details: "A crypto currency price tracker app that lets users stay updated on real-time crypto currency prices, and other useful information"
+        tools: ['JavaScript','React-Js', 'CSS', 'RESTFUL-API'],
+        details: "A crypto currency price tracker app that enables users stay updated on real-time cryptocurrency prices, market cap, and other essential information."
     },
     {
         name:"Spend Smart",
-        tools: ['JavaScript','ReactJs', 'Typescript'],
-        details: "A user-friendy expense tracker designed to help users manage their finances effectively"
+        tools: ['JavaScript','React-Js', 'Typescript'],
+        details: "A user-friendy expense tracker designed to help users manage their finances effeciently"
     },  
     {
         name:"Quiz Master",
-        tools: ['JavaScript','ReactJs', 'CSS', 'Framer-Motion'],
-        details: "A dynamic quiz platorm that offers a diverse range of questions with cool animations"
+        tools: ['JavaScript','React-Js', 'CSS', 'Framer-Motion'],
+        details: "A dynamic quiz platform that offers a diverse range of questions with cool animations"
     },  
     {
         name:"Honey Foods",
         tools: ['HTML','CSS', 'JavaScript'],
-        details: "A honey app"
+        details: "Discover pure, nature's nectar at our honey shop. From raw honey to delightful honey-infused treats."
     },  
     {
         name:"Planet Fitness",
-        tools: ['JavaScript', 'CSS'],
-        details: "A gym app"
+        tools: ['HTML','CSS','JavaScript'],
+        details: "A Fitness App crafted with JavaScript and CSS, simplifying workout tracking and goal setting."
     },
 
 ]

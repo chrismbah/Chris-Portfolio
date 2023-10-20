@@ -31,6 +31,7 @@
 }
 .skills-info h3{
     margin-bottom: 5px;
+    color: var(--color-primary-100);
 }
 
 @media screen and (max-width:800px) {
