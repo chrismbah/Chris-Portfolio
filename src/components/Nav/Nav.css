@@ -36,7 +36,7 @@
 
 .links a{
     color: initial;
-    font-size: 1.15rem;
+    font-size: 1.05rem;
     position: relative;
 }
 .links a::after{
@@ -52,6 +52,10 @@
 }
 .links a:hover::after{
   width: 100%;
+}
+.links a:target{
+  /* width: 100%; */
+  color: red;
 }
 .open-links a{
   color: black;

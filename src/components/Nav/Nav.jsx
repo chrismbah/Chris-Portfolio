@@ -4,10 +4,13 @@ import "./Nav.css";
 export default function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const [active, setActive] = useState(false)
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
+
 
   useEffect(() => {
     function scrollNav() {
@@ -25,7 +28,8 @@ export default function Nav() {
         <div className={`nav-info ${isScrolled ? "nav-info-scrolled" : ""}`}>
           <div className="logo">
             <p>
-              <a href="#">chris.</a></p>
+              <a href="#">chris.</a>
+              </p>
           </div>
           <div className={`links ${isOpen ? "open-links" : ""}`}>
             <a href="#about">About</a>
