@@ -1,7 +1,7 @@
 import React from "react";
-import Github from "../Icons/Github";
-import Link from "../Icons/Link";
-export default function ProjectCard({ name, tools, det }) {
+import Github from "../../assets/Icons/Github";
+import Link from "../../assets/Icons/Link";
+export default function ProjectCard({ name, tools, det, live, github }) {
   return (
     <div className="project-card">
       <h3>{name}</h3>
@@ -9,7 +9,7 @@ export default function ProjectCard({ name, tools, det }) {
         {tools.map((tool, i) => {
           return (
             <div key={i} className="tool-card">
-              {tool} 
+              {tool}
             </div>
           );
         })}
@@ -20,12 +20,16 @@ export default function ProjectCard({ name, tools, det }) {
       <div className="project-icons">
         <div className="live">
           <p>
-            <a href="">Live <Link /></a>
+            <a href={live}>
+              Live <Link />
+            </a>
           </p>
         </div>
         <div className="github">
           <p>
-            <a href="">Github <Github /></a>
+            <a href={github}>
+              Github <Github />
+            </a>
           </p>
         </div>
       </div>

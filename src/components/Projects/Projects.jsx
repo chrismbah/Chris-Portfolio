@@ -13,9 +13,16 @@ export default function Projects() {
         </div>
         <div className="project-cards">
           {projectInfo.map((info, i) => {
-            const { name, tools, details } = info;
+            const { name, tools, details, liveLink, githubLink } = info;
             return (
-              <ProjectCard key={i} name={name} tools={tools} det={details} />
+              <ProjectCard
+                key={i}
+                name={name}
+                tools={tools}
+                det={details}
+                live={liveLink}
+                github = {githubLink}
+              />
             );
           })}
         </div>
