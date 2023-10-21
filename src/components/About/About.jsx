@@ -1,6 +1,6 @@
 import React from "react";
 import aboutImg from "../../assets/img/img1.jpg";
-import Plane from "../Icons/Plane";
+import Plane from "../../assets/Icons/Plane";
 import "./About.css";
 
 export default function About() {
@@ -36,7 +36,7 @@ export default function About() {
             </div>
             <div className="about-contact">
               <button className="contact-btn">
-                <a href="">Contact Me</a> <Plane/>
+                <a href="">Contact Me</a> <Plane />
               </button>
             </div>
           </div>

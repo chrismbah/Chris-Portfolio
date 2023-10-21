@@ -1,10 +1,11 @@
 import React,{useEffect,useRef, useState} from 'react'
 import "./Home.css"
 import Illustration from "../../assets/Illustration2.svg"
-import Linkedin from '../Icons/Linkedin'
-import Gmail from "../Icons/Gmail"
-import Github from "../Icons/Github"
-import NavUp from "../Icons/NavUp"
+import Linkedin from "../../assets/Icons/Linkedin"
+import Gmail from "../../assets/Icons/Gmail"
+import Github from "../../assets/Icons/Github"
+import NavUp from "../../assets/Icons/NavUp"
+
 export default function Home() {
   const [ isVisible, setIsVisible] = useState(false)
 
