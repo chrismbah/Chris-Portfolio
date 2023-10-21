@@ -7,7 +7,7 @@
     position: relative;
     padding:15px;
     min-height:300px;
-    border-radius: 8px;
+    /*border-radius: 8px;*/
     box-shadow: var(--box-shadow-1);
 }
 .project-card h3{
