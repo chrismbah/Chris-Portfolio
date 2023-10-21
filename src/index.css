@@ -2,30 +2,37 @@
 
 :root{
   /********* Main Theme *************/
-  --color-primary-100: #7e22ce;
-  --color-primary-100-a: #7e22ce63;
-  /* --color-primary-100-1: #5757ff;
-  --color-primary-100-a: #5757ffc4;
-  --color-primary-200: #7268ff;
-  --color-primary-300: #897aff;
-  --color-primary-400: #9c8cff; */
-
-  /** CSS DARK THEME SURFACE COLORS */ 
-  --color-surface-200:  #121212;
-  --color-surface-100:  #1d1d1d;
-  --color-surface-300:  #3f3f3f;
-  --color-surface-400:  #575757;
-  --color-surface-500:  #717171;
-  --color-surface-600:  #8b8b8b;
-  --color-surface-700:  #f8f8f8;
-
   --transition-1: .4s ease;
   --transition-2: padding .4s;
+  --transition-3: width .3s;
 
   --h2-font: 1.8rem;
   --h2-font-small: 1.7rem;
+  --h2-font-small-2: 1.4rem;
 
   --box-shadow-1: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  
+    /** CSS DARK THEME PRIMARY COLORS */ 
+   --color-primary-100:  #7e22ce;
+   --color-primary-200:  #8f40d4;
+   --color-primary-300:  #9f59da;
+   --color-primary-400:  #af71e0;
+   --color-primary-500:  #bd89e6;
+   --color-primary-600:  #cba0eb;  
+    /** CSS DARK THEME SURFACE COLORS */
+   --color-surface-100:  #fcfcfc;
+   --color-surface-200:  #fcfcfc;
+   --color-surface-300:  #fdfdfd;
+   --color-surface-400:  #fdfdfd;
+   --color-surface-500:  #fdfdfd;
+   --color-surface-600:  #fefefe;  
+    /** CSS DARK THEME MIXED SURFACE COLORS */ 
+   --color-surface-mixed-100:  #f1e7f8;
+   --color-surface-mixed-200:  #f3eaf9;
+   --color-surface-mixed-300:  #f4ecfa;
+   --color-surface-mixed-400:  #f6effa;
+   --color-surface-mixed-500:  #f7f2fb;
+   --color-surface-mixed-600:  #f9f4fc;
 }
 
 *{
@@ -49,6 +56,7 @@
 .header p{
   font-size:1.2rem;
   color: var(--color-primary-100);
+  font-weight: 400;
 }
 section{
     width: 85%;
@@ -56,7 +64,7 @@ section{
     max-width: 1240px;
  }
  main{
-  padding-top: 100px;
+  padding-top: 90px;
 }
 @media screen and (max-width:800px){
   .header{
@@ -70,5 +78,8 @@ section{
  @media screen and (max-width: 450px){
     section{
         width: 90%;
-     }  
+     }
+     .header{
+      font-size: var(--h2-font-small-1);
+    }  
  }

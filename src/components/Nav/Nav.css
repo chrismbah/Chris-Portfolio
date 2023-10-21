@@ -8,7 +8,7 @@
 }
 .nav-scroll{
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
-  backdrop-filter: blur(75px);
+  backdrop-filter: blur(50px);
 }
 
 .nav-info {
@@ -22,9 +22,9 @@
 .nav-info-scrolled{
   padding: 5px 7.5%;
 }
-.logo p{
+.logo a{
     color: var(--color-primary-100);
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     font-weight:600;
 }
 .links{
@@ -35,9 +35,23 @@
 }
 
 .links a{
-    color: var(--color-primary-100);
-    /* color: initial; */
-    font-size: 1.1rem;
+    color: initial;
+    font-size: 1.15rem;
+    position: relative;
+}
+.links a::after{
+  position: absolute;
+  bottom: 0;
+  left:0;
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: var(--color-primary-100);
+  transition: var(--transition-3);
+}
+.links a:hover::after{
+  width: 100%;
 }
 .open-links a{
   color: black;
@@ -96,9 +110,11 @@
         border-radius:10px;
         height:0;
         width:0;
-        overflow: hidden;
         background:var(--color-primary-100);
         transition: var(--transition-1);
+      }
+      .links a{
+        display: none;
       }
       .nav-info .open-links a{
         display: block;
@@ -109,9 +125,10 @@
         text-align: center;
       }
       .nav-info .open-links{
-        height:300px;
+        height:310px;
         width: 180px;
         padding: 18px 0;
+        overflow: hidden;
       } 
   }
 @media screen and (max-width:450px){

@@ -12,6 +12,7 @@ export default function Nav() {
   useEffect(() => {
     function scrollNav() {
       setIsScrolled(window.scrollY > 10);
+      setIsOpen(false)
     }
     window.addEventListener("scroll", scrollNav);
     return () => {
@@ -23,7 +24,8 @@ export default function Nav() {
       <div className={`nav ${isScrolled ? "nav-scroll" : ""}`}>
         <div className={`nav-info ${isScrolled ? "nav-info-scrolled" : ""}`}>
           <div className="logo">
-            <p>chris.</p>
+            <p>
+              <a href="#">chris.</a></p>
           </div>
           <div className={`links ${isOpen ? "open-links" : ""}`}>
             <a href="#about">About</a>
