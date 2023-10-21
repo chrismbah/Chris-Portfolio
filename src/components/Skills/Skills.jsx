@@ -36,21 +36,21 @@ export default function Skills() {
             <img src={js} alt="js" />
             <p>JavaScript</p>
           </div>
-          <div className="icon ts">
-            <img src={ts} alt="ts" />
-            <p>TypeScript</p>
-          </div>
           <div className="icon react">
             <img src={react} alt="react" />
             <p>React-JS</p>
           </div>
-          <div className="icon python">
-            <img src={python} alt="python" />
-            <p>Python</p>
-          </div>
           <div className="icon tailwind">
             <img src={tailwind} alt="tailwind" />
             <p>Tailwind</p>
+          </div>
+          <div className="icon ts">
+            <img src={ts} alt="ts" />
+            <p>TypeScript</p>
+          </div>
+          <div className="icon python">
+            <img src={python} alt="python" />
+            <p>Python</p>
           </div>
         </div>
       </div>
