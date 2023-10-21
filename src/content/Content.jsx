@@ -1,19 +1,21 @@
-import React from 'react'
-import "./Content.css"
-import Nav from '../components/Nav/Nav'
-import Home from '../components/Home/Home'
-import About from "../components/About/About"
-import Skills from '../components/Skills/Skills'
-import Projects from "../components/Projects/Projects"
+import React from "react";
+import "./Content.css";
+import Nav from "../components/Nav/Nav";
+import Home from "../components/Home/Home";
+import About from "../components/About/About";
+import Skills from "../components/Skills/Skills";
+import Projects from "../components/Projects/Projects";
+import Contact from "../components/Contact/Contact"
 
 export default function Content() {
   return (
-    <div className='content'>
-        <Nav/>
-        <Home/>
-        <About/>
-        <Skills />
-        <Projects/>
+    <div className="content">
+      <Nav />
+      <Home />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact/>
     </div>
-  )
+  );
 }
