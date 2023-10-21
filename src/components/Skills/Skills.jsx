@@ -42,7 +42,7 @@ export default function Skills() {
           </div>
           <div className="icon react">
             <img src={react} alt="react" />
-            <p>React</p>
+            <p>React-JS</p>
           </div>
           <div className="icon python">
             <img src={python} alt="python" />
