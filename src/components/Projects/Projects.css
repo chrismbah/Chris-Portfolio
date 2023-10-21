@@ -1,13 +1,13 @@
 .project-cards{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, auto));
-    gap:3rem;
+    gap: 2rem;
 }
 .project-card{
     position: relative;
     padding:15px;
     min-height:300px;
-    border-radius: 8px;
+    /*border-radius: 8px;*/
     box-shadow: var(--box-shadow-1);
 }
 .project-card h3{
