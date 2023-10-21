@@ -23,7 +23,7 @@
 .tool-card{
     padding: 5px;
     border-radius: 5px;
-    background: var(--color-primary-100-a);
+    background: var(--color-primary-600);
     font-size: .8rem;
 }
 .project-icons{
@@ -31,16 +31,14 @@
     bottom: 20px;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
 
 }
 .project-icons a{
     color: initial;
-    transition: var(--transition-1);
 }
 .project-icons a:hover{
-    /* margin-bottom: 1px solid black; */
-    color: var(--color-primary-100);
+    text-decoration: underline;
 }
 @media screen and (max-width: 450px) {
     .project-cards{

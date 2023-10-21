@@ -1,7 +1,7 @@
 export const projectInfo = [
     {
         name:"Coin Pulse",
-        tools: ['JavaScript','React-Js', 'CSS', 'RESTFUL-API'],
+        tools: ['JavaScript','React Js', 'CSS', 'RESTFUL-API'],
         details: "A crypto currency price tracker app that enables users stay updated on real-time cryptocurrency prices, market cap, and other essential information.",
         liveLink: "https://coin-pulse.vercel.app",
         githubLink: "https://github.com/chrismbah/Coin-Pulse"
@@ -9,14 +9,14 @@ export const projectInfo = [
     {
         name:"Spend Smart",
         tools: ['JavaScript','React-Js', 'Typescript'],
-        details: "A user-friendy expense tracker designed to help users manage their finances effeciently",
+        details: "A user-friendy expense tracker designed to help users manage their finances effeciently.",
         liveLink: "https://spend-smart-nine.vercel.app",
         githubLink: "https://github.com/chrismbah/Spend-Smart"
     },  
     {
         name:"Quiz Master",
-        tools: ['JavaScript','React-Js', 'CSS', 'Framer-Motion'],
-        details: "A dynamic quiz platform that offers a diverse range of questions with cool animations",
+        tools: ['JavaScript','React Js', 'CSS', 'Framer-Motion'],
+        details: "A dynamic quiz platform that offers a diverse range of questions with cool animations.",
         liveLink: "https://quiz-master-ten.vercel.app",
         githubLink: "https://github.com/chrismbah/Quiz-Master"
     },  

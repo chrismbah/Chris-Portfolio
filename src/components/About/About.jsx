@@ -20,15 +20,20 @@ export default function About() {
           <div className="about-text">
             <div className="info">
               <p>
-                Hello! I'm Chris Mbah, a passionate Software Engineer based in
-                Lagos, Nigeria. I specialize in Front-End Development, with a
-                particular focus on HTML/CSS, JavaScript, React, TypeScript and
-                a wide array of cutting-edge frameworks and technologies.
+                I'm a dedicated Software Engineer based in Lagos, Nigeria
+                experienced in JavaScript, TypeScript, React JS and various
+                frameworks and technologies passionate about creating innovative
+                solutions through code.
               </p>
               <p>
-                When I'm not coding or designing, you can often find me playing
-                chess, watching anime, reading manga or simply enjoying a good
-                cup of coffee.
+                I collaborate with cross-functional teams to deliver
+                high-quality, scalable software applications that exceed user
+                expectations.
+              </p>
+              <p>
+                When I'm not coding, you can often find me playing chess,
+                watching anime, reading manga or simply enjoying a good cup of
+                coffee.
               </p>
               <p className="last">
                 Get in touch, and let's create something amazing!
@@ -36,7 +41,8 @@ export default function About() {
             </div>
             <div className="about-contact">
               <button className="contact-btn">
-                <a href="">Contact Me</a> <Plane />
+                <a href="">View Resumé</a>
+                {/* <Plane /> */}
               </button>
             </div>
           </div>
