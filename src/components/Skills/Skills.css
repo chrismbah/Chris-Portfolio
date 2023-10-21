@@ -44,17 +44,17 @@
     .skills-info h3{
         text-align: left;
     }
-    .skills-info .icons{
+    .skills-info .icons{ 
         justify-content: start;
     }
     
 }
 @media screen and (max-width:600px) {
     .skills-info p{
-        font-size: .6em;
+        font-size: .6rem;
     }
     .skills-info .icons{
-        gap: .6rem;
+        gap: .8rem;
     }
     .skills-info img{
         width: 25px;
