@@ -3,10 +3,8 @@
 }
 
 .skills-info img{
-    width: 100%;
+    width: 30px;
     height: auto;
-    margin-right: 15px;
-    object-fit: fill;
 }
 .skills-info .icons{
     display: flex;
@@ -16,7 +14,11 @@
     gap: 2rem;
 }
 .skills-info .icon{
-    width: 60px;
+    min-width: 80px;
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow-3);
 }
 .skills-info .tools,.lang{
     text-align: center;
@@ -30,14 +32,14 @@
     margin-bottom: 40px;
 }
 .skills-info h3{
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     color: var(--color-primary-100);
     font-weight: 450;
 }
 
 @media screen and (max-width:800px) {
     .skills-info .icon{
-        width: 65px;
+        min-width: 65px;
     }
     .skills-info h3{
         text-align: left;
@@ -45,16 +47,16 @@
     .skills-info .icons{
         justify-content: start;
     }
+
 }
 @media screen and (max-width:600px) {
-    .skills-info .icon{
-        width: 45px;
-        margin-right: 10px;
-    }
     .skills-info p{
         font-size: .6em;
     }
     .skills-info .icons{
         gap: .6rem;
+    }
+    .skills-info img{
+        width: 25px;
     }
 }

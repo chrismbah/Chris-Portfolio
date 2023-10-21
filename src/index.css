@@ -11,6 +11,8 @@
   --h2-font-small-2: 1.4rem;
 
   --box-shadow-1: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  --box-shadow-2: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  --box-shadow-3: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   
     /** CSS DARK THEME PRIMARY COLORS */ 
    --color-primary-100:  #7e22ce;
