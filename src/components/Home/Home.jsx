@@ -1,4 +1,4 @@
-import React,{useEffect,useRef, useState} from 'react'
+import React,{useEffect, useState} from 'react'
 import "./Home.css"
 import Illustration from "../../assets/Illustration2.svg"
 import Linkedin from "../../assets/Icons/Linkedin"
@@ -24,8 +24,8 @@ export default function Home() {
     <section className='home'>
       <div className='home-text'>
         <h1>Hey there 👋,</h1>
-        <h1 className='name'>I'm Chris Mbah</h1>
-        <h2>a <span> Software Developer</span></h2>
+        <h1 className='name'>Chris Mbah <div className="bar"></div></h1>
+        <h2>a <span> Software Developer.</span></h2>
         <div className="info">
          <p>I transform your concepts into reality.</p>
         </div>
@@ -33,11 +33,6 @@ export default function Home() {
           <div className="btn github"><Github/></div>
           <div className="btn linkedin"><Linkedin/></div>
           <div className="btn gmail"><Gmail/></div>
-        </div>
-        <div className="resume">
-          <button className="contact-btn">
-            <a href="">Download CV</a>
-          </button>
         </div>
       </div>
       <div className='home-img'>
