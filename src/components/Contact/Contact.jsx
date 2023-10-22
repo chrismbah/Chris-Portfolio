@@ -11,6 +11,7 @@ export default function Contact() {
             <h2>Contact Me</h2>
             <p><div className="header-bar"></div>Get In Touch</p>
           </div>
+          <div className="sub-text">
           <p>
             If you have any questions, project ideas, or just want to chat about
             anything creative, <br />
@@ -18,6 +19,8 @@ export default function Contact() {
             friendly <br />
             conversation or potential collaborations!
           </p>
+          </div>
+
         </div>
         <button className="contact-btn">
           Send Message <Plane />

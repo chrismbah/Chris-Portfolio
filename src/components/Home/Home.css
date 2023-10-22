@@ -24,7 +24,6 @@
     display: block;
     font-size: 1.1rem;
     padding: 10px;
-    background: var(--color-primary-100-a);
     border-radius: 5px;
 }
 .home-text{
@@ -73,12 +72,13 @@
     justify-content:center;
     margin-bottom: 10px;
     cursor: pointer;
-    padding: 10px;
+    padding: 10px 10px 6px;
     transition: var(--transition-1) ;
 }
 .home-links .btn i {
     font-size: 1.3rem;
     transition: var(--transition-1) ;
+    color: black;
 }
 .home-links .btn:hover{
     background: var(--color-primary-100);
@@ -135,7 +135,7 @@
         margin-bottom: 5px;
     }
     .home-links .btn{
-        padding: 7px;
+        padding: 7px 7px 3px;
     }
     .home-text .bar{
         width: 60px;
@@ -171,7 +171,7 @@
     }
     .home-text .info{
         margin-bottom: 10px;
-        font-size: .9rem;
+        font-size: var(--p-font-small-1);
     }
     .home-img img{
         width: 100%;

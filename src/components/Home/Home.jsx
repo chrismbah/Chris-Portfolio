@@ -30,11 +30,12 @@ export default function Home() {
          <p>I transform your concepts into reality.</p>
         </div>
         <div className="home-links">
-          <div className="btn github"><Github/></div>
-          <div className="btn linkedin"><Linkedin/></div>
-          <div className="btn gmail"><Gmail/></div>
+          <div className="btn github"><a href="https://github.com/chrismbah"><Github/></a></div>
+          <div className="btn linkedin"><a href="https://linkedin.com/in/mbah-chris"><Linkedin/></a></div>
+          <div className="btn gmail"><a href="mailto:youremail@chrismbah4622@gmail.com"><Gmail/></a></div>
         </div>
       </div>
+      {/* tel:+1234567890 */}
       <div className='home-img'>
         <img src={Illustration}/>
       </div>

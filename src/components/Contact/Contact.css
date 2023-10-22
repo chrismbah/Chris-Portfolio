@@ -2,7 +2,7 @@
     text-align: center;
     padding-bottom: 40px;
 }
-.contact-info p{
+.contact-info .sub-text p{
     font-size: 1.1rem;
     letter-spacing: .2px;
 }
@@ -11,7 +11,7 @@
 }
 @media screen and (max-width:950px) {
     .contact-info p{
-        font-size: .9rem;
+        font-size: var(--p-font-small-1);
     }
 }
 @media screen and (max-width: 800px) {
@@ -20,9 +20,8 @@
     }   
 }
 @media screen and (max-width:450px) {
-    .contact-info p{
-        font-size: .8rem;
+    .contact-info .sub-text p{
+        font-size: var(--p-font-small-2);
         letter-spacing: 0;
-
     }
 }

@@ -7,7 +7,6 @@
     position: relative;
     padding:15px;
     min-height:300px;
-    /*border-radius: 8px;*/
     box-shadow: var(--box-shadow-1);
 }
 .project-card h3{
@@ -45,7 +44,7 @@
         grid-template-columns: repeat(auto-fit, minmax(180px, auto));
     }
     .project-info p{
-        font-size: .8rem;
+        font-size: var(--p-font-small-2);
     }
     .project-icons a{
         font-size: .9rem;

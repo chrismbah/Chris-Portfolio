@@ -10,6 +10,10 @@
   --h2-font-small: 1.6rem;
   --h2-font-small-2: 1.3rem;
 
+  --p-font-small-1:.9rem;
+  --p-font-small-2: .78rem;
+  /* --p-font-small-3: .65rem; */
+
   --box-shadow-1: rgba(0, 0, 0, 0.18) 0px 2px 4px;
   --box-shadow-2: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
   --box-shadow-3: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
@@ -56,12 +60,13 @@ section{
 .header{
   text-align: center;
   margin-bottom: 15px;
+}
+.header h2{
   font-size: var(--h2-font);
 }
 
 .header p{
-  font-size:1rem;
-  font-weight: 400;
+  font-weight: 450;
 }
 .header p .header-bar{
   width: 30px;
@@ -83,7 +88,6 @@ section{
 .contact-btn a{
   color: var(--color-surface-100);
   transition: var(--transition-1);
-
 }
 .contact-btn i{
   margin-left: 3px;
@@ -92,19 +96,19 @@ section{
   transform: scale(1.05);
 }
 @media screen and (max-width:800px){
-  .header{
-    text-align: left;
+  .header h2{
     font-size: var(--h2-font-small);
   }
-  .header p{
-    font-size: 1.1rem;
-  }  
 }
  @media screen and (max-width: 450px){
     section{
         width: 90%;
      }
-     .header{
+     .header h2{
       font-size: var(--h2-font-small-2);
+    }
+    .contact-btn{
+      padding: 13px;
+      font-size: .9rem;
     }  
  }
