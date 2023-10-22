@@ -57,7 +57,11 @@
         gap: .8rem;
     }
     .skills-info img{
+<<<<<<< HEAD
         width: 25px;
         
+=======
+        width: 30px;
+>>>>>>> d2d4fb23c2076c9521df8513f6a9ada7de9a68c1
     }
 }
