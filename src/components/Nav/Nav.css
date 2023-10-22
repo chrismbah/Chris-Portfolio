@@ -53,10 +53,9 @@
 .links a:hover::after{
   width: 100%;
 }
-.links a:target{
-  /* width: 100%; */
+/* .links a:target{
   color: red;
-}
+} */
 .open-links a{
   color: black;
 }
@@ -106,7 +105,7 @@
     .hamburger-menu {
         display: flex;
       }
-      .links{   
+      .nav .links{   
         position:fixed;
         top:70px;
         right:5%;
@@ -117,7 +116,7 @@
         background:var(--color-primary-100);
         transition: var(--transition-1);
       }
-      .links a{
+      .nav .links a{
         display: none;
       }
       .nav-info .open-links a{

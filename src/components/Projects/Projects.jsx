@@ -9,7 +9,7 @@ export default function Projects() {
       <section className="projects-info">
         <div className="header">
           <h2>My Projects</h2>
-          <p>Stuffs I've cooked so far</p>
+          <p><div className="header-bar"></div>Stuffs I've cooked so far</p>
         </div>
         <div className="project-cards">
           {projectInfo.map((info, i) => {

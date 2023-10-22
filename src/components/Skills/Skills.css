@@ -25,7 +25,7 @@
 }
 
 .skills-info p{
-    font-size: .8em;
+    font-size: .8rem;
     text-align: center;
 }
 .skills-info .lang, .skills-info .frameworks{
@@ -34,6 +34,7 @@
 .skills-info h3{
     margin-bottom: 10px;
     font-weight: 400;
+    font-size: 1.1rem;
 }
 .skills-info .bar{
     display: inline-block;

@@ -7,8 +7,8 @@
   --transition-3: width .3s;
 
   --h2-font: 1.8rem;
-  --h2-font-small: 1.7rem;
-  --h2-font-small-2: 1.4rem;
+  --h2-font-small: 1.6rem;
+  --h2-font-small-2: 1.3rem;
 
   --box-shadow-1: rgba(0, 0, 0, 0.18) 0px 2px 4px;
   --box-shadow-2: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
@@ -16,6 +16,7 @@
   
     /** CSS DARK THEME PRIMARY COLORS */ 
    --color-primary-100:  #7e22ce;
+   --color-primary-100-a:rgba(126, 34, 206, 0.753);
    --color-primary-200:  #8f40d4;
    --color-primary-300:  #9f59da;
    --color-primary-400:  #af71e0;
@@ -23,18 +24,13 @@
    --color-primary-600:  #cba0eb;  
     /** CSS DARK THEME SURFACE COLORS */
    --color-surface-100:  #fcfcfc;
-   --color-surface-200:  #fcfcfc;
-   --color-surface-300:  #fdfdfd;
-   --color-surface-400:  #fdfdfd;
-   --color-surface-500:  #fdfdfd;
-   --color-surface-600:  #fefefe;  
+   --color-surface-200:  #fdfdfd;
+   --color-surface-300:  #fefefe;  
     /** CSS DARK THEME MIXED SURFACE COLORS */ 
    --color-surface-mixed-100:  #f1e7f8;
    --color-surface-mixed-200:  #f3eaf9;
    --color-surface-mixed-300:  #f4ecfa;
-   --color-surface-mixed-400:  #f6effa;
-   --color-surface-mixed-500:  #f7f2fb;
-   --color-surface-mixed-600:  #f9f4fc;
+
 }
 
 *{
@@ -44,21 +40,9 @@
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   text-decoration:none;
-  list-style:none;
 }
 .App{
   background:var(--color-surface-700);
-}
-.header{
-  text-align: center;
-  margin-bottom: 15px;
-  font-size: var(--h2-font);
-}
-
-.header p{
-  font-size:1.2rem;
-  color: var(--color-primary-100);
-  font-weight: 400;
 }
 section{
     width: 85%;
@@ -67,6 +51,45 @@ section{
  }
  main{
   padding-top: 90px;
+  padding-bottom: 20px;
+}
+.header{
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: var(--h2-font);
+}
+
+.header p{
+  font-size:1rem;
+  font-weight: 400;
+}
+.header p .header-bar{
+  width: 30px;
+  height: 3px;
+  background: var(--color-primary-100);
+  display: inline-block;
+
+}
+.contact-btn{
+  background: var(--color-primary-100);
+  border-radius: 5px;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  color: var(--color-surface-100);
+  font-size: 1rem;
+  transition: var(--transition-1);
+}
+.contact-btn a{
+  color: var(--color-surface-100);
+  transition: var(--transition-1);
+
+}
+.contact-btn i{
+  margin-left: 3px;
+}
+.contact-btn:hover{
+  transform: scale(1.05);
 }
 @media screen and (max-width:800px){
   .header{
@@ -82,6 +105,6 @@ section{
         width: 90%;
      }
      .header{
-      font-size: var(--h2-font-small-1);
+      font-size: var(--h2-font-small-2);
     }  
  }

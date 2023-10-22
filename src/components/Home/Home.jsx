@@ -25,7 +25,7 @@ export default function Home() {
       <div className='home-text'>
         <h1>Hey there 👋,</h1>
         <h1 className='name'>Chris Mbah <div className="bar"></div></h1>
-        <h2>a <span> Software Developer.</span></h2>
+        <h2><span> Software Engineer.</span></h2>
         <div className="info">
          <p>I transform your concepts into reality.</p>
         </div>

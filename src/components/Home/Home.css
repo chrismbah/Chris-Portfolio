@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 40px 0 0;
-    min-height: 100vh;
+    min-height: 94vh;
 }
 .home .nav-up{
     position: fixed;
@@ -24,7 +24,7 @@
     display: block;
     font-size: 1.1rem;
     padding: 10px;
-    background: var(--color-primary-100);
+    background: var(--color-primary-100-a);
     border-radius: 5px;
 }
 .home-text{
@@ -57,7 +57,7 @@
 .home-img img{
    width: 400px;
 }
-.home-text .home-links{
+.home-links{
     display:flex;
     align-items:center;
     justify-content:start;
@@ -66,10 +66,8 @@
     text-align: left;
 }
 .home-links .btn{
-    width:40px;
-    height:40px;
     border-radius:7px;
-    border: 3px solid var(--color-primary-100);
+    border: 2px solid var(--color-primary-100);
     display:flex;
     align-items:center;
     justify-content:center;
@@ -133,7 +131,7 @@
         margin-bottom: 10px;
         font-size: .8rem;
     }
-    .home-text .home-links{
+    .home-links{
         margin-bottom: 5px;
     }
     .home-links .btn{

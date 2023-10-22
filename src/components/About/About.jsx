@@ -11,7 +11,7 @@ export default function About() {
           <h2>
             About <span>Me</span>
           </h2>
-          <p>Who I Am And What I Do</p>
+          <p><div className="header-bar"></div>Who I Am And What I Do</p>
         </div>
         <div className="about-det">
           <div className="about-img">
