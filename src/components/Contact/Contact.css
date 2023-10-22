@@ -1,0 +1,28 @@
+.contact-info{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.contact-info p{
+    font-size: 1.1rem;
+    letter-spacing: .2px;
+}
+.contact-info .text{
+    margin-bottom: 20px;
+}
+@media screen and (max-width:950px) {
+    .contact-info p{
+        font-size: .9rem;
+    }
+}
+@media screen and (max-width: 800px) {
+    .contact-info .header{
+        text-align: center;
+    }   
+}
+@media screen and (max-width:450px) {
+    .contact-info p{
+        font-size: .8rem;
+        letter-spacing: 0;
+
+    }
+}
