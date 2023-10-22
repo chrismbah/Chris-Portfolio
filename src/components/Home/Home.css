@@ -38,11 +38,10 @@
 }
 .home-text .bar{
     width: 70px;
-    height: 5px;
+    height: 4px;
     background: var(--color-primary-100);
     display: inline-block;
     transform: translateY(-14px);
-    border-radius: 3px;
 }
 .home-text h2{
     font-size: 1.9rem;
@@ -69,8 +68,8 @@
 .home-links .btn{
     width:40px;
     height:40px;
-    border-radius:50%;
-    border: 2px solid var(--color-primary-100);
+    border-radius:7px;
+    border: 3px solid var(--color-primary-100);
     display:flex;
     align-items:center;
     justify-content:center;
