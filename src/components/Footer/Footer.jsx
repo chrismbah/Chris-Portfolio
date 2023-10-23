@@ -23,15 +23,21 @@ export default function Footer() {
             </div>
             <div className="home-links">
               <div className="btn github">
+                <a href=""></a>
                 <Github />
               </div>
               <div className="btn linkedin">
+
                 <Linkedin />
               </div>
               <div className="btn gmail">
+                <a href=""></a>
+
                 <Gmail />
               </div>
               <div className="btn whatsapp">
+                <a href=""></a>
+
                 <Whatsapp />
               </div>
             </div>
