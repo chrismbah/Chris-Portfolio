@@ -3,6 +3,7 @@ import "./Footer.css";
 import Linkedin from "../../assets/Icons/Linkedin"
 import Gmail from "../../assets/Icons/Gmail"
 import Github from "../../assets/Icons/Github"
+import Whatsapp from "../../assets/Icons/Whatsapp"
 
 export default function Footer() {
   return (
@@ -30,9 +31,12 @@ export default function Footer() {
               <div className="btn gmail">
                 <Gmail />
               </div>
+              <div className="btn whatsapp">
+                <Whatsapp />
+              </div>
             </div>
             <p>
-              <span>©</span> Chris Mbah 2023. All Rights Reserved
+              <span>©</span> 2023 Chris Mbah. All Rights Reserved
             </p>
           </div>
         </section>

@@ -28,6 +28,8 @@
 .footer .home-links .btn{
     background: var(--color-primary-100);
     padding: 10px;
+    border: none;
+    transition: none;
 }
 .footer .home-links {
     justify-content:center;
@@ -36,7 +38,9 @@
 .footer .home-links .btn i{
     color: var(--color-surface-100);
 }
-
+.footer .home-links .btn:hover{
+    background: var(--color-primary-300);
+}
 @media screen and (max-width:700px){
     .footer .home-links{
         flex-wrap: wrap;
