@@ -36,13 +36,12 @@ export default function About() {
                 coffee.
               </p>
               <p className="last">
-                Get in touch, and let's create something amazing!
+                <label><a href="mailto:chrismbah4622@gmail.com">Get in touch</a></label>, and let's create something amazing!
               </p>
             </div>
             <div className="about-contact">
               <button className="contact-btn">
                 <a href="">View Resumé</a>
-                {/* <Plane /> */}
               </button>
             </div>
           </div>

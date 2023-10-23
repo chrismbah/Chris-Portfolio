@@ -11,7 +11,7 @@
   --h2-font-small-2: 1.3rem;
 
   --p-font-small-1:.9rem;
-  --p-font-small-2: .8rem;
+  --p-font-small-2: .83rem;
 
   --box-shadow-1: rgba(0, 0, 0, 0.18) 0px 2px 4px;
   --box-shadow-2: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
@@ -55,6 +55,9 @@ section{
  main{
   padding-top: 90px;
   padding-bottom: 20px;
+}
+label{
+  color: var(color-primary-100);
 }
 .header{
   text-align: center;

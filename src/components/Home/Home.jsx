@@ -45,7 +45,7 @@ export default function Home() {
             </a>
           </div>
           <div className="btn gmail">
-            <a href="mailto:youremail@chrismbah4622@gmail.com">
+            <a href="mailto:chrismbah4622@gmail.com">
               <Gmail />
             </a>
           </div>
