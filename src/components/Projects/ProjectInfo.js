@@ -17,7 +17,7 @@ export const projectInfo = [
         name:"Quiz Master",
         tools: ['JavaScript','React Js', 'CSS', 'Framer-Motion'],
         details: "A dynamic quiz platform that offers a diverse range of questions with cool animations.",
-        liveLink: "https://quiz-master-ten.vercel.app",
+        liveLink: "https://quiz-master-tan.vercel.app",
         githubLink: "https://github.com/chrismbah/Quiz-Master"
     },  
     {
