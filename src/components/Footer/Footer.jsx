@@ -1,9 +1,9 @@
 import React from "react";
 import "./Footer.css";
-import Linkedin from "../../assets/Icons/Linkedin"
-import Gmail from "../../assets/Icons/Gmail"
-import Github from "../../assets/Icons/Github"
-import Whatsapp from "../../assets/Icons/Whatsapp"
+import Linkedin from "../../assets/Icons/Linkedin";
+import Gmail from "../../assets/Icons/Gmail";
+import Github from "../../assets/Icons/Github";
+import Whatsapp from "../../assets/Icons/Whatsapp";
 
 export default function Footer() {
   return (
@@ -23,22 +23,24 @@ export default function Footer() {
             </div>
             <div className="home-links">
               <div className="btn github">
-                <a href=""></a>
-                <Github />
+                <a href="https://github.com/chrismbah">
+                  <Github />
+                </a>
               </div>
               <div className="btn linkedin">
-
-                <Linkedin />
+                <a href="https://linkedin.com/in/mbah-chris">
+                  <Linkedin />
+                </a>
               </div>
               <div className="btn gmail">
-                <a href=""></a>
-
-                <Gmail />
+                <a href="mailto:chrismbah4622@gmail.com">
+                  <Gmail />
+                </a>
               </div>
               <div className="btn whatsapp">
-                <a href=""></a>
-
-                <Whatsapp />
+                <a href="tel:+2349031367728">
+                  <Whatsapp />
+                </a>
               </div>
             </div>
             <p>

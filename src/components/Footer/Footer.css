@@ -41,7 +41,9 @@
 }
 .footer .home-links .btn i:hover{
     color: var(--color-primary-100);
-
+}
+.footer .home-links .btn a{
+    color: initial;
 }
 @media screen and (max-width:700px){
     .footer .home-links{
@@ -51,7 +53,7 @@
         padding: 7px;
     }
     .footer .home-links .btn i{
-        font-size: .9rem;
+        font-size: 1rem;
     }
     .footer .logo a{
         font-size: 1.3rem;
