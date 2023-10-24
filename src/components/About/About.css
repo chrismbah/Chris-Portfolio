@@ -46,6 +46,6 @@
         width: 100%;
     }
     .about-text p{
-        font-size: var(--p-font-small-2);
+        font-size: var(--p-font-small-1);
     }
 }

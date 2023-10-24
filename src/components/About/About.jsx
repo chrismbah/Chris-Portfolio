@@ -11,7 +11,9 @@ export default function About() {
           <h2>
             About <span>Me</span>
           </h2>
-          <p><div className="header-bar"></div>Who I Am And What I Do</p>
+          <p>
+            <div className="header-bar"></div>Who I Am And What I Do
+          </p>
         </div>
         <div className="about-det">
           <div className="about-img">
@@ -36,7 +38,10 @@ export default function About() {
                 coffee.
               </p>
               <p className="last">
-                <label><a href="mailto:chrismbah4622@gmail.com">Get in touch</a></label>, and let's create something amazing!
+                <label>
+                  <a href="mailto:chrismbah4622@gmail.com">Get in touch</a>
+                </label>
+                , and let's create something amazing!
               </p>
             </div>
             <div className="about-contact">

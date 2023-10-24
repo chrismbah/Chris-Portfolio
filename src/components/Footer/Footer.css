@@ -49,11 +49,8 @@
     .footer .home-links{
         flex-wrap: wrap;
     }
-    .footer .home-links .btn{
-        padding: 7px;
-    }
     .footer .home-links .btn i{
-        font-size: 1rem;
+        font-size: 1.25rem;
     }
     .footer .logo a{
         font-size: 1.3rem;

@@ -20,7 +20,7 @@
     transition: var(--transition-1)
 }
 .home .nav-up i{
-    color: var(--color-surface-100);
+    color: var(--color-primary-100);
     display: block;
     font-size: 1.1rem;
     padding: 10px;
@@ -164,7 +164,7 @@
         width: 40px;
     }
     .home-text h2{
-        font-size: 1.3rem;
+        font-size: 1.4rem;
         margin-bottom: 3px;
     }
     .home-text .info{
