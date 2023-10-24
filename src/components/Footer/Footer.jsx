@@ -38,7 +38,7 @@ export default function Footer() {
                 </a>
               </div>
               <div className="btn whatsapp">
-                <a href="tel:+2349031367728">
+                <a href="https://wa.me/+2349031367728">
                   <Whatsapp />
                 </a>
               </div>

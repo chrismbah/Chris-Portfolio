@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <section className="home">
       <div className="home-text">
-        <h1>Hey there 👋,</h1>
+        <h1>Hey👋, I'm</h1>
         <h1 className="name">
           Chris Mbah <div className="bar"></div>
         </h1>
