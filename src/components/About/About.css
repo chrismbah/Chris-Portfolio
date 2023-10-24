@@ -17,7 +17,9 @@
     margin-bottom: 15px;
 }
 .about-text .last a{
-    color: initial;
+    color:var(--color-primary-200);
+}
+.about-text .last a:hover{
     text-decoration: underline;
 }
 @media screen and (max-width:1240px) {
