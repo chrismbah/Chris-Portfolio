@@ -1,21 +1,19 @@
 import { useState, useEffect } from "react";
 import "./Nav.css";
-
+import { NavLink } from "react-router-dom";
 export default function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
-  const [active, setActive] = useState(false)
+  // const [active, setActive] = useState(false);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
-
-
   useEffect(() => {
     function scrollNav() {
       setIsScrolled(window.scrollY > 10);
-      setIsOpen(false)
+      setIsOpen(false);
     }
     window.addEventListener("scroll", scrollNav);
     return () => {
@@ -28,14 +26,14 @@ export default function Nav() {
         <div className={`nav-info ${isScrolled ? "nav-info-scrolled" : ""}`}>
           <div className="logo">
             <p>
-              <a href="#">chris.</a>
-              </p>
+              <NavLink to="/" exact>chris.</NavLink>
+            </p>
           </div>
           <div className={`links ${isOpen ? "open-links" : ""}`}>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+            <NavLink to="/about">About</NavLink>
+            <NavLink to="/skills">Skills</NavLink>
+            <NavLink to="/projects">Projects</NavLink>
+            <NavLink to="/contact">Contact</NavLink>
           </div>
           <div
             className={`hamburger-menu ${isOpen ? "open" : ""}`}

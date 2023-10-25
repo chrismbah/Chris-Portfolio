@@ -5,6 +5,8 @@ import Linkedin from "../../assets/Icons/Linkedin";
 import Gmail from "../../assets/Icons/Gmail";
 import Github from "../../assets/Icons/Github";
 import NavUp from "../../assets/Icons/NavUp";
+import { useTypewriter, Cursor } from "react-simple-typewriter";
+import { Link, NavLink } from "react-router-dom";
 
 export default function Home() {
   const [isVisible, setIsVisible] = useState(false);
@@ -20,6 +22,16 @@ export default function Home() {
     };
   }, []);
 
+  const [text] = useTypewriter({
+    words: ["Software Engineer.", "Web Designer."],
+    loop: {
+      
+    },
+    typeSpeed: 120,
+    deleteSpeed: 100,
+    delay: 4000
+  });
+
   return (
     <section className="home">
       <div className="home-text">
@@ -28,37 +40,39 @@ export default function Home() {
           Chris Mbah <div className="bar"></div>
         </h1>
         <h2>
-          <span> Software Engineer.</span>
+          <span>{text}</span>
+          <label className="cursor">
+            <Cursor />
+          </label>
         </h2>
         <div className="info">
           <p>I transform your concepts into reality.</p>
         </div>
         <div className="home-links">
           <div className="btn github">
-            <a href="https://github.com/chrismbah">
+            <NavLink to="https://github.com/chrismbah">
               <Github />
-            </a>
+            </NavLink>
           </div>
           <div className="btn linkedin">
-            <a href="https://linkedin.com/in/mbah-chris">
+            <NavLink to="https://linkedin.com/in/mbah-chris">
               <Linkedin />
-            </a>
+            </NavLink>
           </div>
           <div className="btn gmail">
-            <a href="mailto:chrismbah4622@gmail.com">
+            <NavLink to="mailto:chrismbah4622@gmail.com">
               <Gmail />
-            </a>
+            </NavLink>
           </div>
         </div>
       </div>
-      {/* tel:+1234567890 */}
       <div className="home-img">
         <img src={Illustration} />
       </div>
       <div className={`nav-up ${isVisible ? "nav-visible" : ""}`}>
-        <a href="#">
+        <Link to="#">
           <NavUp />
-        </a>
+        </Link>
       </div>
     </section>
   );

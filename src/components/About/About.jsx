@@ -1,8 +1,7 @@
 import React from "react";
 import aboutImg from "../../assets/img/img1.jpg";
-import Plane from "../../assets/Icons/Plane";
 import "./About.css";
-
+import { Link } from "react-router-dom";
 export default function About() {
   return (
     <main id="about">
@@ -39,14 +38,14 @@ export default function About() {
               </p>
               <p className="last">
                 <label>
-                  <a href="mailto:chrismbah4622@gmail.com">Get in touch</a>
+                  <Link to="mailto:chrismbah4622@gmail.com">Get in touch</Link>
                 </label>
                 , and let's create something amazing!
               </p>
             </div>
             <div className="about-contact">
               <button className="contact-btn">
-                <a href="">View Resumé</a>
+                <Link to="">View Resumé</Link>
               </button>
             </div>
           </div>
