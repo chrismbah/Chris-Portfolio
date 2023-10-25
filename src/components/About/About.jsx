@@ -45,7 +45,9 @@ export default function About() {
             </div>
             <div className="about-contact">
               <button className="contact-btn">
-                <Link to="">View Resumé</Link>
+                <Link to="https://drive.google.com/file/d/1TnvqdLskfBt16-1zEBjnjUiRGjkgG6eU/view?usp=drivesdk">
+                  View Resumé
+                </Link>
               </button>
             </div>
           </div>

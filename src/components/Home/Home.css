@@ -66,7 +66,7 @@
 }
 .home-links .btn{
     border-radius:7px;
-    border: 2px solid var(--color-primary-100);
+    border: 3px solid var(--color-primary-100);
     display:flex;
     align-items:center;
     justify-content:center;

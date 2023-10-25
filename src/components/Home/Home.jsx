@@ -5,12 +5,13 @@ import Linkedin from "../../assets/Icons/Linkedin";
 import Gmail from "../../assets/Icons/Gmail";
 import Github from "../../assets/Icons/Github";
 import NavUp from "../../assets/Icons/NavUp";
-import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { Link, NavLink } from "react-router-dom";
+import { Typewriter } from "react-simple-typewriter";
+import { NavLink } from "react-router-dom";
 
 export default function Home() {
+  
   const [isVisible, setIsVisible] = useState(false);
-
+  const [typing, setTyping] = useState(true)
   useEffect(() => {
     function handleScroll() {
       setIsVisible(window.scrollY > 10);
@@ -22,16 +23,6 @@ export default function Home() {
     };
   }, []);
 
-  const [text] = useTypewriter({
-    words: ["Software Engineer.", "Web Designer."],
-    loop: {
-      
-    },
-    typeSpeed: 120,
-    deleteSpeed: 100,
-    delay: 4000
-  });
-
   return (
     <section className="home">
       <div className="home-text">
@@ -40,9 +31,19 @@ export default function Home() {
           Chris Mbah <div className="bar"></div>
         </h1>
         <h2>
-          <span>{text}</span>
+          <span>
+            <Typewriter
+              words={["Software Engineer.", "Web Designer."]}
+              loop={1}
+              cursor = {typing}
+              typeSpeed={150}
+              deleteSpeed={100}
+              delaySpeed={2000}
+              onLoopDone={() => setTyping(false)}
+              />
+          </span>
+
           <label className="cursor">
-            <Cursor />
           </label>
         </h2>
         <div className="info">
@@ -70,9 +71,9 @@ export default function Home() {
         <img src={Illustration} />
       </div>
       <div className={`nav-up ${isVisible ? "nav-visible" : ""}`}>
-        <Link to="#">
+        <a href="#">
           <NavUp />
-        </Link>
+        </a>
       </div>
     </section>
   );
