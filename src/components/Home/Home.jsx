@@ -33,7 +33,7 @@ export default function Home() {
         <h2>
           <span>
             <Typewriter
-              words={["Software Engineer.", "Web Designer."]}
+              words={["Software Engineer.", "Web Developer."]}
               loop={1}
               cursor = {typing}
               typeSpeed={150}
