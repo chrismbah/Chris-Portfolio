@@ -9,6 +9,7 @@
 .contact-info .text{
     margin-bottom: 20px;
 }
+
 @media screen and (max-width:950px) {
     .contact-info p{
         font-size: var(--p-font-small-1);
