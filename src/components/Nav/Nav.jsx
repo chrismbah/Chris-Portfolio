@@ -1,10 +1,8 @@
 import { useState, useEffect } from "react";
 import "./Nav.css";
-import { NavLink } from "react-router-dom";
 export default function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
-  // const [active, setActive] = useState(false);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -26,14 +24,16 @@ export default function Nav() {
         <div className={`nav-info ${isScrolled ? "nav-info-scrolled" : ""}`}>
           <div className="logo">
             <p>
-              <NavLink to="/" exact>chris.</NavLink>
+              <a href="#" exact>
+                chris.
+              </a>
             </p>
           </div>
           <div className={`links ${isOpen ? "open-links" : ""}`}>
-            <NavLink to="/about">About</NavLink>
-            <NavLink to="/skills">Skills</NavLink>
-            <NavLink to="/projects">Projects</NavLink>
-            <NavLink to="/contact">Contact</NavLink>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
           </div>
           <div
             className={`hamburger-menu ${isOpen ? "open" : ""}`}

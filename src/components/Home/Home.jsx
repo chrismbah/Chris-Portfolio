@@ -6,7 +6,6 @@ import Gmail from "../../assets/Icons/Gmail";
 import Github from "../../assets/Icons/Github";
 import NavUp from "../../assets/Icons/NavUp";
 import { Typewriter } from "react-simple-typewriter";
-import { NavLink } from "react-router-dom";
 
 export default function Home() {
   
@@ -51,19 +50,19 @@ export default function Home() {
         </div>
         <div className="home-links">
           <div className="btn github">
-            <NavLink to="https://github.com/chrismbah">
+            <a href="https://github.com/chrismbah">
               <Github />
-            </NavLink>
+            </a>
           </div>
           <div className="btn linkedin">
-            <NavLink to="https://linkedin.com/in/mbah-chris">
+            <a href="https://linkedin.com/in/mbah-chris">
               <Linkedin />
-            </NavLink>
+            </a>
           </div>
           <div className="btn gmail">
-            <NavLink to="mailto:chrismbah4622@gmail.com">
+            <a href="mailto:chrismbah4622@gmail.com">
               <Gmail />
-            </NavLink>
+            </a>
           </div>
         </div>
       </div>

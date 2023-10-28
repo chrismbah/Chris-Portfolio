@@ -1,7 +1,6 @@
 import React from "react";
 import aboutImg from "../../assets/img/img1.jpg";
 import "./About.css";
-import { Link } from "react-router-dom";
 export default function About() {
   return (
     <main id="about">
@@ -38,16 +37,16 @@ export default function About() {
               </p>
               <p className="last">
                 <label>
-                  <Link to="mailto:chrismbah4622@gmail.com">Get in touch</Link>
+                  <a href="mailto:chrismbah4622@gmail.com">Get in touch</a>
                 </label>
-                , and let's create something amazing!
+                ,and let's create something amazing!
               </p>
             </div>
             <div className="about-contact">
               <button className="contact-btn">
-                <Link to="https://drive.google.com/file/d/1TnvqdLskfBt16-1zEBjnjUiRGjkgG6eU/view?usp=drivesdk">
+                <a href="https://drive.google.com/file/d/1TnvqdLskfBt16-1zEBjnjUiRGjkgG6eU/view?usp=drivesdk">
                   View Resumé
-                </Link>
+                </a>
               </button>
             </div>
           </div>

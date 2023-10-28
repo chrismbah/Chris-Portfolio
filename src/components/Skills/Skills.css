@@ -20,6 +20,9 @@
     border-radius: 5px;
     box-shadow: var(--box-shadow-3);
 }
+.skills-info .icon:hover{
+    transform: translateY(5px);
+}
 .skills-info .tools,.skills-info .lang, .skills-info .frameworks{
     text-align: center;
 }
