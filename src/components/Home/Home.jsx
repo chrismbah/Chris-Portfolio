@@ -8,9 +8,9 @@ import NavUp from "../../assets/Icons/NavUp";
 import { Typewriter } from "react-simple-typewriter";
 
 export default function Home() {
-  
   const [isVisible, setIsVisible] = useState(false);
-  const [typing, setTyping] = useState(true)
+  const [typing, setTyping] = useState(true);
+
   useEffect(() => {
     function handleScroll() {
       setIsVisible(window.scrollY > 10);
@@ -34,16 +34,15 @@ export default function Home() {
             <Typewriter
               words={["Software Engineer.", "Web Developer."]}
               loop={2}
-              cursor = {typing}
+              cursor={typing}
               typeSpeed={150}
               deleteSpeed={100}
               delaySpeed={2000}
               onLoopDone={() => setTyping(false)}
-              />
+            />
           </span>
 
-          <label className="cursor">
-          </label>
+          <label className="cursor"></label>
         </h2>
         <div className="info">
           <p>I transform your concepts into reality.</p>
@@ -69,11 +68,11 @@ export default function Home() {
       <div className="home-img">
         <img src={Illustration} />
       </div>
-      <div className={`nav-up ${isVisible ? "nav-visible" : ""}`}>
+      <button className={`nav-up ${isVisible ? "nav-visible" : ""}`}>
         <a href="#">
           <NavUp />
         </a>
-      </div>
+      </button>
     </section>
   );
 }
