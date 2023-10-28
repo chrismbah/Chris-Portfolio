@@ -80,9 +80,8 @@
     transition: var(--transition-1) ;
     color: black;
 }
-.home-links .btn:hover{
+.home .home-links .btn:hover{
     background: var(--color-primary-100);
-
 }
 .home-links .btn:hover i{
     color: var(--color-surface-100);
