@@ -8,7 +8,7 @@ export const projectInfo = [
     }, 
     {
         name:"Coin Pulse",
-        tools: ['JavaScript','React Js', 'CSS', 'RESTFUL-API'],
+        tools: ['JavaScript','React Js', 'CSS', 'REST API'],
         details: "A crypto currency price tracker app that enables users stay updated on real-time cryptocurrency prices, market cap, and other essential information.",
         liveLink: "https://coin-pulse.vercel.app",
         githubLink: "https://github.com/chrismbah/Coin-Pulse"
