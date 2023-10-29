@@ -1,6 +1,6 @@
-# Personal Portfolio Website
+# My Personal Portfolio Website
 
-![Project Screenshot](/screenshot.png)
+![Home Page Screenshot](/public/screenshot.png)
 
 ## Description
 
