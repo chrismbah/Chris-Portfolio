@@ -1,10 +1,10 @@
 export const projectInfo = [
     {
-        name:"My Personal Portfolio",
+        name: "Personal Portfolio",
         tools: ['JavaScript','React Js', 'CSS', 'Framer-Motion'],
-        details: "My Portfolio website showcasing my skills and projects",
+        details: "My Portfolio Website showcasing my skills, stacks as well as various projects made with different technologies",
         liveLink: "https://chrismbah.vercel.app",
-        githubLink: "https://github.com/chrismbah/Chris's-Portfolio"
+        githubLink: "https://github.com/chrismbah/Chris-Portfolio"
     }, 
     {
         name:"Coin Pulse",
