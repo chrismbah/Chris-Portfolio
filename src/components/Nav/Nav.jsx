@@ -19,12 +19,11 @@ export default function Nav() {
     };
   }, []);
   return (
-    <>
       <div className={`nav ${isScrolled ? "nav-scroll" : ""}`}>
         <div className={`nav-info ${isScrolled ? "nav-info-scrolled" : ""}`}>
           <div className="logo">
             <p>
-              <a href="#" exact>
+              <a href="#">
                 chris.
               </a>
             </p>
@@ -45,6 +44,5 @@ export default function Nav() {
           </div>
         </div>
       </div>
-    </>
   );
 }

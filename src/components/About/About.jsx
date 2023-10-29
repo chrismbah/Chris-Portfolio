@@ -32,7 +32,7 @@ export default function About() {
               </p>
               <p>
                 When I'm not coding, you can often find me playing chess,
-                watching anime, reading manga or simply enjoying a good cup of
+                watching anime (One Piece), reading manga or simply enjoying a good cup of
                 coffee.
               </p>
               <p className="last">

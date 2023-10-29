@@ -1,5 +1,12 @@
 export const projectInfo = [
     {
+        name:"My Personal Portfolio",
+        tools: ['JavaScript','React Js', 'CSS', 'Framer-Motion'],
+        details: "My Portfolio website showcasing my skills and projects",
+        liveLink: "https://chrismbah.vercel.app",
+        githubLink: "https://github.com/chrismbah/Chris's-Portfolio"
+    }, 
+    {
         name:"Coin Pulse",
         tools: ['JavaScript','React Js', 'CSS', 'RESTFUL-API'],
         details: "A crypto currency price tracker app that enables users stay updated on real-time cryptocurrency prices, market cap, and other essential information.",
@@ -12,7 +19,8 @@ export const projectInfo = [
         details: "A user-friendy expense tracker designed to help users manage their finances effeciently.",
         liveLink: "https://spend-smart-nine.vercel.app",
         githubLink: "https://github.com/chrismbah/Spend-Smart"
-    },  
+    },
+ 
     {
         name:"Quiz Master",
         tools: ['JavaScript','React Js', 'CSS', 'Framer-Motion'],
