@@ -38,6 +38,7 @@
 }
 .footer .home-links .btn i{
     color: black;
+    transition: none;
 }
 .footer .home-links .btn i:hover{
     color: var(--color-primary-100);
