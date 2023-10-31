@@ -27,7 +27,15 @@ export const projectInfo = [
         details: "A dynamic quiz platform that offers a diverse range of questions with cool animations.",
         liveLink: "https://quiz-master-tan.vercel.app",
         githubLink: "https://github.com/chrismbah/Quiz-Master"
-    },  
+    },
+     
+    {
+        name:"Rent Up",
+        tools: ['HTML','CSS','JavaScript','React Js'],
+        details: " A Real Estate website that allows users to search for properties, view property details, and connect with real estate agents. It provides a user-friendly platform for both property buyers and sellers to interact and find their ideal real estate deals.",
+        liveLink: "https://rent-up22.vercel.app",
+        githubLink: "https://github.com/chrismbah/Rent-Up"
+    },    
     {
         name:"Honey Foods",
         tools: ['HTML','CSS', 'JavaScript'],
