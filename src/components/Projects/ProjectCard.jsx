@@ -28,7 +28,7 @@ export default function ProjectCard({ name, tools, det, live, github }) {
         <div className="github">
           <p>
             <a href={github}>
-              Github <Github />
+              Code <Github />
             </a>
           </p>
         </div>

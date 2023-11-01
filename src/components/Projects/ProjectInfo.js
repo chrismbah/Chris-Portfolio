@@ -15,12 +15,18 @@ export const projectInfo = [
     },
     {
         name:"Spend Smart",
-        tools: ['JavaScript','React-Js', 'Typescript'],
+        tools: ['JavaScript','React-Js', 'TypeScript'],
         details: "A user-friendy expense tracker designed to help users manage their finances effeciently.",
         liveLink: "https://spend-smart-nine.vercel.app",
         githubLink: "https://github.com/chrismbah/Spend-Smart"
     },
- 
+    {
+        name:"Rent Up",
+        tools: ['HTML','CSS','JavaScript','React Js'],
+        details: " A Real Estate website that allows users to search for properties, view property details, and connect with real estate agents. It provides a user-friendly platform for both property buyers and sellers to interact and find their ideal real estate deals.",
+        liveLink: "https://rent-up22.vercel.app",
+        githubLink: "https://github.com/chrismbah/Rent-Up"
+    }, 
     {
         name:"Quiz Master",
         tools: ['JavaScript','React Js', 'CSS', 'Framer-Motion'],
@@ -28,14 +34,6 @@ export const projectInfo = [
         liveLink: "https://quiz-master-tan.vercel.app",
         githubLink: "https://github.com/chrismbah/Quiz-Master"
     },
-     
-    {
-        name:"Rent Up",
-        tools: ['HTML','CSS','JavaScript','React Js'],
-        details: " A Real Estate website that allows users to search for properties, view property details, and connect with real estate agents. It provides a user-friendly platform for both property buyers and sellers to interact and find their ideal real estate deals.",
-        liveLink: "https://rent-up22.vercel.app",
-        githubLink: "https://github.com/chrismbah/Rent-Up"
-    },    
     {
         name:"Honey Foods",
         tools: ['HTML','CSS', 'JavaScript'],

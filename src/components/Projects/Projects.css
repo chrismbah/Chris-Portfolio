@@ -5,7 +5,7 @@
 }
 .project-card{
     position: relative;
-    padding:25px;
+    padding:18px;
     min-height:300px;
     box-shadow: var(--box-shadow-1);
 }
