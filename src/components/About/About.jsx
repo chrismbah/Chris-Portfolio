@@ -44,7 +44,7 @@ export default function About() {
             </div>
             <div className="about-contact">
               <button className="contact-btn">
-                <a href="https://drive.google.com/file/d/1lGtrypdC0JgSHAorDCREET7hnxOZxfb6/view?usp=sharing">
+                <a href="https://drive.google.com/file/d/1DpJsH6LYWAD3F1UFrARZ6PEOp1qOTQnd/view?usp=drive_link">
                   View Resume
                 </a>
               </button>
