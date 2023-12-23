@@ -25,8 +25,8 @@ export const projectInfo = [
         tools: ['JavaScript','React Js', 'Tailwind CSS'],
         details: 
         "A next generation banking website that improve your financal life by building credit, earning rewards and saving money.",
-        liveLink: "https://https://hoobank-modern-banking.vercel.app/",
-        githubLink: "https://https://github.com/chrismbah/Hoobank"
+        liveLink: "https://hoobank-modern-banking.vercel.app/",
+        githubLink: "https://github.com/chrismbah/Hoobank"
     },
     {
         name:"Rent Up",
