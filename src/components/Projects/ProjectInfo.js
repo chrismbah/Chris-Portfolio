@@ -21,6 +21,14 @@ export const projectInfo = [
         githubLink: "https://github.com/chrismbah/Spend-Smart"
     },
     {
+        name: "Hoobank",
+        tools: ['JavaScript','React Js', 'Tailwind CSS'],
+        details: 
+        "A next generation banking website that improve your financal life by building credit, earning rewards and saving money.",
+        liveLink: "https://https://hoobank-modern-banking.vercel.app/",
+        githubLink: "https://https://github.com/chrismbah/Hoobank"
+    },
+    {
         name:"Rent Up",
         tools: ['HTML','CSS','JavaScript','React Js'],
         details: " A Real Estate website that allows users to search for properties, view property details, and connect with real estate agents. It provides a user-friendly platform for both property buyers and sellers to interact and find their ideal real estate deals.",
