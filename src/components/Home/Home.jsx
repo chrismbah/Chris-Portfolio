@@ -6,6 +6,8 @@ import Gmail from "../../assets/Icons/Gmail";
 import Github from "../../assets/Icons/Github";
 import NavUp from "../../assets/Icons/NavUp";
 import { Typewriter } from "react-simple-typewriter";
+import { gmailLink, githubLink, linkedinLink } from "../../helper/links"
+
 
 export default function Home() {
   const [isVisible, setIsVisible] = useState(false);
@@ -49,17 +51,17 @@ export default function Home() {
         </div>
         <div className="home-links">
           <div className="btn github">
-            <a href="https://github.com/chrismbah">
+            <a href={githubLink}>
               <Github />
             </a>
           </div>
           <div className="btn linkedin">
-            <a href="https://linkedin.com/in/mbah-chris">
+            <a href={linkedinLink}>
               <Linkedin />
             </a>
           </div>
           <div className="btn gmail">
-            <a href="mailto:chrismbah4622@gmail.com">
+            <a href={gmailLink}>
               <Gmail />
             </a>
           </div>

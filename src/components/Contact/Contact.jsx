@@ -1,6 +1,7 @@
 import React from "react";
 import "./Contact.css";
 import Plane from "../../assets/Icons/Plane";
+import { gmailLink } from "../../helper/links"
 
 export default function Contact() {
   return (
@@ -24,7 +25,7 @@ export default function Contact() {
           </div>
         </div>
         <button className="contact-btn">
-          <a href="mailto:chrismbah4622@gmail.com">
+          <a href={gmailLink}>
             Send Message <Plane />
           </a>
         </button>
