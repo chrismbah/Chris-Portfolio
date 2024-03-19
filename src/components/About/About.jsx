@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import aboutImg from "../../assets/img/img1.jpg";
 import "./About.css";
@@ -22,7 +23,7 @@ export default function About() {
           <div className="about-text">
             <div className="info">
               <p>
-                I'm a dedicated Software Engineer based in Lagos, Nigeria
+                I'm a dedicated Software Engineer based in Owerri, Nigeria
                 experienced in JavaScript, TypeScript, React JS and various
                 frameworks and technologies passionate about creating innovative
                 solutions through code.
