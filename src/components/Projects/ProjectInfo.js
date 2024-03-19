@@ -1,5 +1,13 @@
 export const projectInfo = [
     {
+        name:"PTE-FUTO",
+        tools: ['React Js','Tailwind CSS', 'Typescript', "Firebase"],
+        details:  "An E-Learning platform that provides a centralized hub for students of Polymer and Textile Engineering Department, offering course outlines, downloadable handouts and past questions, GPA calculator and a blog platform with educational content.",
+        liveLink: "https://pte-futo.vercel.app",
+        githubLink: "https://github.com/chrismbah/PTE-FUTO"
+
+    }, 
+    {
         name: "Personal Portfolio",
         tools: ['JavaScript','React Js', 'CSS', 'Framer-Motion'],
         details: "My Portfolio Website showcasing my skills, stacks as well as various projects made with different technologies",
@@ -31,16 +39,9 @@ export const projectInfo = [
     {
         name:"Rent Up",
         tools: ['HTML','CSS','JavaScript','React Js'],
-        details: " A Real Estate website that allows users to search for properties, view property details, and connect with real estate agents. It provides a user-friendly platform for both property buyers and sellers to interact and find their ideal real estate deals.",
+        details: " Demo of a Real Estate platform that allows users to search for properties, view property details, and connect with real estate agents. It provides a user-friendly platform for both property buyers and sellers to interact and find their ideal real estate deals.",
         liveLink: "https://rent-up22.vercel.app",
         githubLink: "https://github.com/chrismbah/Rent-Up"
     }, 
-    {
-        name:"Honey Foods",
-        tools: ['HTML','CSS', 'JavaScript'],
-        details: "Discover pure, nature's nectar at our honey shop. From raw honey to delightful honey-infused treats.",
-        liveLink: "https://honey-foods.vercel.app",
-        githubLink: "https://github.com/chrismbah/Honey-Foods"
-
-    },  
+    
 ]
