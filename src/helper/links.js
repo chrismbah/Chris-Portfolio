@@ -1,6 +1,6 @@
 export const resumeLink = "https://drive.google.com/file/d/17gxaEsVXoogM1XRptSeO-LA1Fiep-_Wn/view?usp=drive_link";
 
-export const gmailLink = "mailto:chrismbah4622@gmail.com";
+export const gmailLink = "mailto:mbahchris46@gmail.com";
 
 export const githubLink = "https://github.com/chrismbah";
 
