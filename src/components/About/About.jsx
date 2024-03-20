@@ -1,27 +1,62 @@
 /* eslint-disable react/no-unescaped-entities */
-import React from "react";
 import aboutImg from "../../assets/img/img1.jpg";
 import "./About.css";
-import { resumeLink, gmailLink } from "../../helper/links"
+import { resumeLink, gmailLink } from "../../helper/links";
+import { motion } from "framer-motion";
+import { variants1, variants3 } from "../../animations/variants";
 
 export default function About() {
   return (
     <main id="about">
       <section className="about-info">
         <div className="header">
-          <h2>
+          <motion.h2
+            variants={variants1}
+            initial="initial"
+            whileInView="animate"
+            viewport={{
+              once: true,
+            }}
+            custom={1}
+          >
             About <span>Me</span>
-          </h2>
-          <p>
+          </motion.h2>
+          <motion.p
+            variants={variants1}
+            initial="initial"
+            whileInView="animate"
+            viewport={{
+              once: true,
+            }}
+            custom={2}
+          >
             <div className="header-bar"></div>Who I Am And What I Do
-          </p>
+          </motion.p>
         </div>
         <div className="about-det">
-          <div className="about-img">
+          <motion.div
+            variants={variants1}
+            initial="initial"
+            whileInView="animate"
+            viewport={{
+              once: true,
+            }}
+            custom={3}
+            className="about-img"
+          >
             <img src={aboutImg} alt="chris" />
-          </div>
+          </motion.div>
           <div className="about-text">
-            <div className="info">
+            <motion.div
+              variants={variants1}
+              initial="initial"
+              whileInView="animate"
+              viewport={{
+                once: true,
+              }}
+              custom={4}
+              className="info"
+            >
               <p>
                 I'm a dedicated Software Engineer based in Owerri, Nigeria
                 experienced in JavaScript, TypeScript, React JS and various
@@ -35,8 +70,8 @@ export default function About() {
               </p>
               <p>
                 When I'm not coding, you can often find me playing chess,
-                watching anime (One Piece), reading manga or simply enjoying a good cup of
-                coffee.
+                watching anime (One Piece), reading manga or simply enjoying a
+                good cup of coffee.
               </p>
               <p className="last">
                 <label>
@@ -44,13 +79,20 @@ export default function About() {
                 </label>
                 ,and let's create something amazing!
               </p>
-            </div>
+            </motion.div>
             <div className="about-contact">
-              <button className="contact-btn">
-                <a href={resumeLink}>
-                  View Resume
-                </a>
-              </button>
+              <motion.button
+                variants={variants3}
+                initial="initial"
+                whileInView="animate"
+                viewport={{
+                  once: true,
+                }}
+                custom={5}
+                className="contact-btn"
+              >
+                <a href={resumeLink}>View Resume</a>
+              </motion.button>
             </div>
           </div>
         </div>

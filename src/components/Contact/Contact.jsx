@@ -1,4 +1,4 @@
-import React from "react";
+/* eslint-disable react/no-unescaped-entities */
 import "./Contact.css";
 import Plane from "../../assets/Icons/Plane";
 import { gmailLink } from "../../helper/links"

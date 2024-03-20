@@ -34,8 +34,16 @@
     gap: 15px;
 
 }
+.project-info p{
+    font-size: var(--p-font-small-1);
+    font-weight: 500;
+}
 .project-icons a{
     color: initial;
+}.project-icons p{
+    font-weight: 500;
+    font-size: var(--p-font-small-1);
+
 }
 .project-icons a:hover{
     text-decoration: underline;

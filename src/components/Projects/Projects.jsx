@@ -1,4 +1,4 @@
-import React from "react";
+/* eslint-disable react/no-unescaped-entities */
 import { projectInfo } from "./ProjectInfo";
 import ProjectCard from "./ProjectCard";
 import "./Projects.css";
@@ -13,15 +13,10 @@ export default function Projects() {
         </div>
         <div className="project-cards">
           {projectInfo.map((info, i) => {
-            const { name, tools, details, liveLink, githubLink } = info;
             return (
               <ProjectCard
                 key={i}
-                name={name}
-                tools={tools}
-                det={details}
-                live={liveLink}
-                github = {githubLink}
+                {...info}
               />
             );
           })}

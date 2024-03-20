@@ -1,7 +1,13 @@
-import React from "react";
+/* eslint-disable react/prop-types */
 import Github from "../../assets/Icons/Github";
 import Link from "../../assets/Icons/Link";
-export default function ProjectCard({ name, tools, det, live, github }) {
+export default function ProjectCard({
+  name,
+  tools,
+  details,
+  liveLink,
+  githubLink,
+}) {
   return (
     <div className="project-card">
       <h3>{name}</h3>
@@ -15,19 +21,19 @@ export default function ProjectCard({ name, tools, det, live, github }) {
         })}
       </div>
       <div className="project-info">
-        <p>{det}</p>
+        <p>{details}</p>
       </div>
       <div className="project-icons">
         <div className="live">
           <p>
-            <a href={live}>
+            <a href={liveLink}>
               Live <Link />
             </a>
           </p>
         </div>
         <div className="github">
           <p>
-            <a href={github}>
+            <a href={githubLink}>
               Code <Github />
             </a>
           </p>
