@@ -1,4 +1,4 @@
-export const resumeLink = "https://drive.google.com/file/d/17gxaEsVXoogM1XRptSeO-LA1Fiep-_Wn/view?usp=drive_link";
+export const resumeLink = "https://drive.google.com/file/d/1Gh0mjitQLIU6JlNGDdGdkzB3nMjUqTll/view?usp=drive_link";
 
 export const gmailLink = "mailto:mbahchris46@gmail.com";
 
